@@ -1,4 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+ENABLE_BITCODE = "NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/NFCPassportReader" "${PODS_CONFIGURATION_BUILD_DIR}/QKMRZParser" "${PODS_CONFIGURATION_BUILD_DIR}/QKMRZScanner" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyTesseract" "${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/NFCPassportReader/NFCPassportReader.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QKMRZParser/QKMRZParser.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QKMRZScanner/QKMRZScanner.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyTesseract/SwiftyTesseract.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/SwiftyTesseract/SwiftyTesseract/SwiftyTesseract/dependencies/lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/NFCPassportReader/NFCPassportReader.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/QKMRZParser/QKMRZParser.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/QKMRZScanner/QKMRZScanner.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyTesseract/SwiftyTesseract.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/NFCPassportReader" -iframework "${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/QKMRZParser" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/QKMRZScanner" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyTesseract"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreImage" -framework "Foundation" -framework "NFCPassportReader" -framework "OpenSSL" -framework "QKMRZParser" -framework "QKMRZScanner" -framework "SwiftyTesseract" -framework "UIKit" -weak_framework "CoreNFC" -weak_framework "CryptoKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

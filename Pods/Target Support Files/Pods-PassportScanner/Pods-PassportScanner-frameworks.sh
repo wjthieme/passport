@@ -200,11 +200,17 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/NFCPassportReader/NFCPassportReader.framework"
   install_framework "${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework"
   install_dsym "${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework.dSYM"
+  install_framework "${BUILT_PRODUCTS_DIR}/QKMRZParser/QKMRZParser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QKMRZScanner/QKMRZScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyTesseract/SwiftyTesseract.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/NFCPassportReader/NFCPassportReader.framework"
   install_framework "${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework"
   install_dsym "${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework.dSYM"
+  install_framework "${BUILT_PRODUCTS_DIR}/QKMRZParser/QKMRZParser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QKMRZScanner/QKMRZScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyTesseract/SwiftyTesseract.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,22 +15,6 @@
 		ED79649824B1C0E5007DCE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED79649624B1C0E5007DCE40 /* LaunchScreen.storyboard */; };
 		ED7964A324B1C0E5007DCE40 /* PassportScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964A224B1C0E5007DCE40 /* PassportScannerTests.swift */; };
 		ED7964AE24B1C2FA007DCE40 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED7964AD24B1C2FA007DCE40 /* Settings.bundle */; };
-		ED7964BE24B1FBC6007DCE40 /* TravelDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964BD24B1FBC6007DCE40 /* TravelDocument.swift */; };
-		ED7964DD24B30C81007DCE40 /* TagReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964DC24B30C81007DCE40 /* TagReader.swift */; };
-		ED7964E124B37D96007DCE40 /* TagReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964E024B37D96007DCE40 /* TagReaderError.swift */; };
-		ED7964E324B381B5007DCE40 /* SecureMessagning.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964E224B381B5007DCE40 /* SecureMessagning.swift */; };
-		ED7964E524B38881007DCE40 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964E424B38881007DCE40 /* String.swift */; };
-		ED7964E724B38B0F007DCE40 /* DES.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964E624B38B0F007DCE40 /* DES.swift */; };
-		ED7964E924B38C0F007DCE40 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964E824B38C0F007DCE40 /* Utils.swift */; };
-		ED7964EB24B38E47007DCE40 /* TagCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964EA24B38E47007DCE40 /* TagCommand.swift */; };
-		ED7964EF24B3A25A007DCE40 /* COM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964EE24B3A25A007DCE40 /* COM.swift */; };
-		ED7964F424B3A2DF007DCE40 /* DataGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964F324B3A2DF007DCE40 /* DataGroup.swift */; };
-		ED7964F824B3A3ED007DCE40 /* SOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964F724B3A3ED007DCE40 /* SOD.swift */; };
-		ED7964FA24B3A3FF007DCE40 /* DG1.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964F924B3A3FF007DCE40 /* DG1.swift */; };
-		ED7964FC24B3A427007DCE40 /* DG2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964FB24B3A427007DCE40 /* DG2.swift */; };
-		ED7964FE24B3A45D007DCE40 /* DG11.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964FD24B3A45D007DCE40 /* DG11.swift */; };
-		ED79650024B3A492007DCE40 /* DG7.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7964FF24B3A492007DCE40 /* DG7.swift */; };
-		ED79650224B3A4AD007DCE40 /* DG12.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79650124B3A4AD007DCE40 /* DG12.swift */; };
 		ED79650A24B489BA007DCE40 /* DisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79650924B489BA007DCE40 /* DisplayController.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,22 +45,6 @@
 		ED7964A424B1C0E5007DCE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7964AD24B1C2FA007DCE40 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		ED7964B124B1D8E8007DCE40 /* PassportScanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassportScanner.entitlements; sourceTree = "<group>"; };
-		ED7964BD24B1FBC6007DCE40 /* TravelDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelDocument.swift; sourceTree = "<group>"; };
-		ED7964DC24B30C81007DCE40 /* TagReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagReader.swift; sourceTree = "<group>"; };
-		ED7964E024B37D96007DCE40 /* TagReaderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagReaderError.swift; sourceTree = "<group>"; };
-		ED7964E224B381B5007DCE40 /* SecureMessagning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureMessagning.swift; sourceTree = "<group>"; };
-		ED7964E424B38881007DCE40 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		ED7964E624B38B0F007DCE40 /* DES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DES.swift; sourceTree = "<group>"; };
-		ED7964E824B38C0F007DCE40 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		ED7964EA24B38E47007DCE40 /* TagCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCommand.swift; sourceTree = "<group>"; };
-		ED7964EE24B3A25A007DCE40 /* COM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COM.swift; sourceTree = "<group>"; };
-		ED7964F324B3A2DF007DCE40 /* DataGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGroup.swift; sourceTree = "<group>"; };
-		ED7964F724B3A3ED007DCE40 /* SOD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOD.swift; sourceTree = "<group>"; };
-		ED7964F924B3A3FF007DCE40 /* DG1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DG1.swift; sourceTree = "<group>"; };
-		ED7964FB24B3A427007DCE40 /* DG2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DG2.swift; sourceTree = "<group>"; };
-		ED7964FD24B3A45D007DCE40 /* DG11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DG11.swift; sourceTree = "<group>"; };
-		ED7964FF24B3A492007DCE40 /* DG7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DG7.swift; sourceTree = "<group>"; };
-		ED79650124B3A4AD007DCE40 /* DG12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DG12.swift; sourceTree = "<group>"; };
 		ED79650924B489BA007DCE40 /* DisplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayController.swift; sourceTree = "<group>"; };
 		FD12A96060AB1E06E850BB8D /* Pods-PassportScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassportScannerTests.release.xcconfig"; path = "Target Support Files/Pods-PassportScannerTests/Pods-PassportScannerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,15 +116,6 @@
 				ED79648B24B1C0E0007DCE40 /* AppDelegate.swift */,
 				ED79648F24B1C0E0007DCE40 /* CameraController.swift */,
 				ED79650924B489BA007DCE40 /* DisplayController.swift */,
-				ED7964DC24B30C81007DCE40 /* TagReader.swift */,
-				ED7964EA24B38E47007DCE40 /* TagCommand.swift */,
-				ED7964E224B381B5007DCE40 /* SecureMessagning.swift */,
-				ED7964F024B3A290007DCE40 /* DataGroups */,
-				ED7964E424B38881007DCE40 /* String.swift */,
-				ED7964E824B38C0F007DCE40 /* Utils.swift */,
-				ED7964E624B38B0F007DCE40 /* DES.swift */,
-				ED7964E024B37D96007DCE40 /* TagReaderError.swift */,
-				ED7964BD24B1FBC6007DCE40 /* TravelDocument.swift */,
 				ED79649424B1C0E5007DCE40 /* Assets.xcassets */,
 				ED79649624B1C0E5007DCE40 /* LaunchScreen.storyboard */,
 				ED79649924B1C0E5007DCE40 /* Info.plist */,
@@ -174,21 +133,6 @@
 			path = PassportScannerTests;
 			sourceTree = "<group>";
 		};
-		ED7964F024B3A290007DCE40 /* DataGroups */ = {
-			isa = PBXGroup;
-			children = (
-				ED7964EE24B3A25A007DCE40 /* COM.swift */,
-				ED7964F724B3A3ED007DCE40 /* SOD.swift */,
-				ED7964F924B3A3FF007DCE40 /* DG1.swift */,
-				ED7964FB24B3A427007DCE40 /* DG2.swift */,
-				ED7964FF24B3A492007DCE40 /* DG7.swift */,
-				ED7964FD24B3A45D007DCE40 /* DG11.swift */,
-				ED79650124B3A4AD007DCE40 /* DG12.swift */,
-				ED7964F324B3A2DF007DCE40 /* DataGroup.swift */,
-			);
-			path = DataGroups;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,6 +145,7 @@
 				ED79648524B1C0E0007DCE40 /* Frameworks */,
 				ED79648624B1C0E0007DCE40 /* Resources */,
 				ED7964B224B1E33D007DCE40 /* [Script] Auto-increment Build Number */,
+				478D3156A5FB98FBBE075793 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,6 +234,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		478D3156A5FB98FBBE075793 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassportScanner/Pods-PassportScanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassportScanner/Pods-PassportScanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassportScanner/Pods-PassportScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		880A3D3C693236075BA1075A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,24 +320,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED7964BE24B1FBC6007DCE40 /* TravelDocument.swift in Sources */,
-				ED7964E324B381B5007DCE40 /* SecureMessagning.swift in Sources */,
-				ED7964FC24B3A427007DCE40 /* DG2.swift in Sources */,
-				ED7964DD24B30C81007DCE40 /* TagReader.swift in Sources */,
-				ED7964E724B38B0F007DCE40 /* DES.swift in Sources */,
-				ED7964F424B3A2DF007DCE40 /* DataGroup.swift in Sources */,
-				ED7964E124B37D96007DCE40 /* TagReaderError.swift in Sources */,
-				ED79650224B3A4AD007DCE40 /* DG12.swift in Sources */,
-				ED7964E924B38C0F007DCE40 /* Utils.swift in Sources */,
-				ED7964FE24B3A45D007DCE40 /* DG11.swift in Sources */,
 				ED79650A24B489BA007DCE40 /* DisplayController.swift in Sources */,
-				ED7964F824B3A3ED007DCE40 /* SOD.swift in Sources */,
-				ED7964EB24B38E47007DCE40 /* TagCommand.swift in Sources */,
-				ED79650024B3A492007DCE40 /* DG7.swift in Sources */,
-				ED7964EF24B3A25A007DCE40 /* COM.swift in Sources */,
-				ED7964FA24B3A3FF007DCE40 /* DG1.swift in Sources */,
 				ED79649024B1C0E0007DCE40 /* CameraController.swift in Sources */,
-				ED7964E524B38881007DCE40 /* String.swift in Sources */,
 				ED79648C24B1C0E0007DCE40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

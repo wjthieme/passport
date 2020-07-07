@@ -3,16 +3,150 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DC3BA84DB7DD10596FA8E43A9BBB8261 /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-Universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		3948BA9A13BA8679B89AE0E8826C5730 /* Pods-PassportScannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA209F5FB97F9B293632B065C0FD91F /* Pods-PassportScannerTests-dummy.m */; };
-		42FD2EA4F5433D1900889ECD5BA16B78 /* Pods-PassportScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F552CE0DB96FDEC6858E462BCFEF130B /* Pods-PassportScanner-dummy.m */; };
-		D12F60EEC43F0FB7D39346287CE2157D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D2AC11F65FE8D5B6505B40C433CC4F2C /* Pods-PassportScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2885973FE81D24222031C85C700C98EC /* Pods-PassportScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E30F4803B221BA4747663D93BA096C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F6CE368764978AD8857AD254C956A05F /* Pods-PassportScannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F93076E37E80E7A68F087BD67DC3F50 /* Pods-PassportScannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0039DCED84C4B64D23A7EECC9EADDC21 /* SwiftyTesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10D0F5BE6ECB7D309F10B59218EB06A /* SwiftyTesseract.framework */; };
+		00A7DC15FDB29266F9F171E4D53A3B40 /* NFCPassportReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13546E714FFF34101753CCE8CB5E72C1 /* NFCPassportReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06900F42631B37AC9AF928B312B54BF1 /* SwiftyTesseractError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39E8042F8D2254E554BA079DA32A241 /* SwiftyTesseractError.swift */; };
+		0DFF4DDB23F32E40693C55DC92AEAFB0 /* AVCaptureVideoOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DA32B909E7318B7B1AD31DC83F679 /* AVCaptureVideoOrientation.swift */; };
+		17ABDA7511018F565C72FA799A9B0096 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B380B7AD7FABB7F745BF71B434092 /* Utils.swift */; };
+		1A91310B13EEACDD67246A65066C6FD6 /* regutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF8B2ABA90066ED47DCB72E46190963 /* regutils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1CA991885CC1D9FBC77C6BC26B8D1FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123C3F1CB40702CE60C5227F8A7E292A /* Foundation.framework */; };
+		1E8DD515F578AA1FFBD5F90F311393B2 /* OpenSSLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7512D31A28E96C53186C4D81CAF9F5E /* OpenSSLUtils.swift */; };
+		1FC746E76023E9A53742E57DA3076F33 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B70CCAEAD42F6C864479F3487E7621F /* Logging.swift */; };
+		233819A20A52CC48D7343191DBA2AFA6 /* RecognizedBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBA47604A739738FD1AAA94C5FBF8C /* RecognizedBlock.swift */; };
+		23F046DA8DEC1EF57F2CBF5E77C0E640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123C3F1CB40702CE60C5227F8A7E292A /* Foundation.framework */; };
+		262DEAFF18D8E595369746FDDA78514B /* Bundle+pathToTrainedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB3E3608DF594CEAC79CEB3B1BF208 /* Bundle+pathToTrainedData.swift */; };
+		267B0F654F75A6259D9BAB11F02BA277 /* helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB417D6D3DF708D4AA385356268E559 /* helpers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2B117D72CC7F44FBD5F27B6531CA064B /* BACHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F5FC21BB6E19CB79B1B041722B2D3 /* BACHandler.swift */; };
+		2BB9456A79B3F03A0C7311C44B0DA92A /* QKCutoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC89C28EF8B628EB407AA28DB1B580 /* QKCutoutView.swift */; };
+		2C121D318E8768FE5FA1AEBEB419635E /* recog.h in Headers */ = {isa = PBXBuildFile; fileRef = FD42AEB736FE6424EA95346523D29B05 /* recog.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2D43A0D277CC4E044F5ABBE71C69434D /* X509Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450A4FE25050D24EA4D1784BD91EE8D /* X509Wrapper.swift */; };
+		2EACC21FEEB76B0A50828CA9B5643F5F /* EngineMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA9715D68C5914EB1C25FC0A0BC476 /* EngineMode.swift */; };
+		30B63ABB31D31B203ECF577A4B613F65 /* QKMRZParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 241804FBBA79608C965471EABEEE0241 /* QKMRZParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A809D36EB685AD20E1927824A579E0 /* SwiftyTesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6715982263A124C480903F811BA610C9 /* SwiftyTesseract.swift */; };
+		34CFBA57BCBA7706D3AD4839385D3B7B /* gplot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BD6FB3AAA324EF15498E24C6268CC /* gplot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3948BA9A13BA8679B89AE0E8826C5730 /* Pods-PassportScannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BE3AFEF8829E977F78EF2E4AE0696 /* Pods-PassportScannerTests-dummy.m */; };
+		3BB81177415EA754F323E6D56BE58A6A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF623D1C9B9B9B65DE0B01C2C717928 /* String+Extensions.swift */; };
+		3F0AC8DA2FF52961DFBA9B995A094AB8 /* QKMRZParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F24C57C1547783FB4A3D7D73B423C /* QKMRZParser-dummy.m */; };
+		3FD5B81D676A954D418CA9B3AACDB0ED /* watershed.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F87F7FB76889C7B22A5C093EFF75F2 /* watershed.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		40438AF25D35A718E1E33237082BDAEB /* tess_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FC1CEA6006D838CED49914056980B2 /* tess_version.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		412A6E9D711FFF78E3DEF1D7DC6BACB4 /* ccbord.h in Headers */ = {isa = PBXBuildFile; fileRef = 217651DE128D23726FB4848E17D46FEF /* ccbord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		41BA6E81F80EEF15FAD6BF55DADBFFE1 /* MRZFieldFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAEA8E18E8647F1272A55877F38D914 /* MRZFieldFormatter.swift */; };
+		43124644635E6819081B0AAE212A1197 /* LuminanceThresholdFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7EEB4B4621AA201D065A88CD8A1FE /* LuminanceThresholdFilter.swift */; };
+		44543DE51BE3CEC68A728D24CD718315 /* morph.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4C687CF38473D1082DA9F08C0E35ED /* morph.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4466AACD74009FD488FAFCD127C11FF3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A86B6BF03F3D7CF0FDBBBBC841480B6 /* CoreImage.framework */; };
+		4933C8DCD0A1958CAD07333EF82C0011 /* td3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1CAFA9A6E20EA6EDA46C588DDBE95 /* td3.swift */; };
+		496AA66FE07FC67A6D96F69FC03A2DDF /* alltypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A6A8E30A8B00BA21B4B94EEEFCE974 /* alltypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4A7E44F82A1932DB314212E380F2BBC8 /* SwiftyTesseract-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6DC1875DCB18BB61E1BD8B605763D6 /* SwiftyTesseract-dummy.m */; };
+		4C1BFB63BE3900E8FB9792B10954EF65 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF89259D942EAEBB1E75B96DAEC68AC /* pngconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4CC6496E5E67C6D4CC039B7B9BB17B42 /* Pods-PassportScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D099EFE296FD91B23D58D690D735DE89 /* Pods-PassportScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54AD1EA5CF53455EE91E2B21E0781FDA /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C28258BF7551EA810017F4DB71210C7 /* jerror.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		54F5EC961656F71D34722E870561FD7A /* array.h in Headers */ = {isa = PBXBuildFile; fileRef = 343F6F8243C9F7FC9B44AF65970145DD /* array.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		567527563CB684ACB9DCCC61B95E371A /* jbclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 022AF6FE695B48BA2177CEACF584B434 /* jbclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		58AB9CCA1EEFE1380CAEF07F68C1380E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123C3F1CB40702CE60C5227F8A7E292A /* Foundation.framework */; };
+		5BD811B2FA563734289B10DF983366DE /* imageio.h in Headers */ = {isa = PBXBuildFile; fileRef = 60ED153D91B2D7B358B00880F32A60EB /* imageio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5FB378E313BAD577B56A0FDA0B58E613 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = A16B61B6FF0B8E6D8A2652B943304649 /* jmorecfg.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6351B8CF244F2ADDAED2D50A10EC629E /* pageiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF2EBE8F69287EAA0BFB9383C07871A /* pageiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		64C2E8E64B6F681269C9A45CD15F935E /* QKMRZScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F67B2B205C36F9A619E6926CC07AB /* QKMRZScanResult.swift */; };
+		6749E138F45EAF53E3D04DB8B0329A5B /* QKMRZParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1FF54CDFD742F1F13571C2C18570AE /* QKMRZParser.framework */; };
+		684C35574C1B13807BF4FB91A8A1ACA0 /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471E78514742D879CF22621752BE36D /* CIImage.swift */; };
+		6B47DC7B0BB820FB64AC372007D77BA9 /* td1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7998E6B90E86746881B723F8DDA6AA3 /* td1.swift */; };
+		6D406995CD401EA022F17969CDCA8A5B /* genericvector.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D54D479114651F65D907118CCD28CC /* genericvector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6EB913A052A36FAA1A458C38BB344F89 /* DataGroupParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799A95024487444FC6739FAA1DB70A5 /* DataGroupParser.swift */; };
+		7394D5051DF811CE225C914163F37D32 /* apitypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4E058CD6F428B1CF60444A07E189E3 /* apitypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7471B0F9479816D081B1E7C1A4CBB99E /* leptwin.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AD3E0236F70FB8D040D5C3AE2B1CDE /* leptwin.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		74D7EA36F6672CC40B154B0F6AA6607A /* QKMRZScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE902EB2D75C9339161B83290C32AD /* QKMRZScannerView.swift */; };
+		7771D790CC28C5F6EE6C54AF47357569 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B16DF3356B423A223B829E2BDA15E8 /* AVFoundation.framework */; };
+		7B7ADE63775F50CFEC130796FA5C70C6 /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BE8CE1CBD3914664A0962A920D4DA0 /* queue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7BC76BA2C5E855E2F50E128410D0C7C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123C3F1CB40702CE60C5227F8A7E292A /* Foundation.framework */; };
+		7D4C6FCA0C41BA7E4D70A405908DDF2B /* serialis.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B031A16A9BD283CEB6560C0E6F4A2 /* serialis.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7EA9F1229FAA5EAFF4A584C647463867 /* CIContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9A6DA4954F01F5E25CFD0F32C4BF5 /* CIContext.swift */; };
+		7EC1796AF89B41BE9928B57700E91E58 /* environ.h in Headers */ = {isa = PBXBuildFile; fileRef = A84D4CDC88F275E7E395823E8D0D4374 /* environ.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		85FB87FC5E463BE6941BA20E55B9E5E7 /* heap.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C23CC5E5E2F811AFD2E5B427BD3EC8 /* heap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		88B23321B5AA0E32D954F8CACC4B17E7 /* strngs.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1EF2FC3D3E8B6A5EEE41939FF40DC5 /* strngs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8A8F037120BF8BEA3F68B516EAC35D77 /* bilateral.h in Headers */ = {isa = PBXBuildFile; fileRef = D678D70A310585AF06614FAF6C30DBD8 /* bilateral.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8CC9F46A30CA23F9DAEE97360D130686 /* stringcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1594B7ABEE67B7CCD33971D7AA3D4C /* stringcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8D515AA515580DEC6D06D34476215EB4 /* publictypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C302B3A72A43804A9DE68D48157694C /* publictypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8F079664285270F840985739BD1F0C01 /* thresholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA48763F6C89DB38AEE2A7C0D99760A /* thresholder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		90B369AF89B14882A1BD440762A35763 /* bmf.h in Headers */ = {isa = PBXBuildFile; fileRef = A222DAE0E18FA6751A0BD9E734F92DC4 /* bmf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		94E139BF6BB770AF974D50C83DEF2AAA /* Pods-PassportScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76892D79FB140C5FF75B5196CF0ED900 /* Pods-PassportScanner-dummy.m */; };
+		94F9D216CC3C38EDB65E0F74D109C71C /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 9149642E983A06BB2AE6867A2462962B /* list.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		99F8AF048315421BA399D793FA65FC20 /* resultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 114294004C185D34631E554B081CCED1 /* resultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AB8C75D3AA68B04783E3114271FDA9E /* rbtree.h in Headers */ = {isa = PBXBuildFile; fileRef = E5FEA33F2073C9B60EE835EFEB266CA6 /* rbtree.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9BBA593B686BCEE89589D300665D52FB /* PassportReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C5632D92948BE62611ACBAF728A6E /* PassportReader.swift */; };
+		9BF40F178549FEC16CCAADFC8688C76D /* ResultIteratorLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDA669BF58BEAD3D81A4563BA5C7FD /* ResultIteratorLevel.swift */; };
+		9C72BFB2764CF0070CFC6E8DB5DF80CD /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9725DED8CA873D0B6B39FA37EE54E7C6 /* jconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9E2CB061E6469994A06C1A852C5148FB /* unichar.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D252602E1D3D82E2DA3466C29DF383 /* unichar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A2DE8C15F14A8607F6F04E34784F06C7 /* tiffconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 44294F8BBF058931A64869C7514B78F5 /* tiffconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7E4EF64ACD9C26CB47E6C0DFF9A1AEA /* readbarcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4512EB3EB056F42E8130478B5FC7E564 /* readbarcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A9A3207EBF8BFC614DB8BB4F1FA4BE3F /* LanguageStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A9DD06959B09142B79643DFBBC01C /* LanguageStringConverter.swift */; };
+		AA954CACCA4A7DF94A60E79C60E184C3 /* LanguageModelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C716557526868937D3A54B98E8A7C /* LanguageModelDataSource.swift */; };
+		AD3BE9D29BBD249C2AB319AA0A136485 /* tiffio.h in Headers */ = {isa = PBXBuildFile; fileRef = B1542FD8D1A4BCE8C05E8392232EE9F2 /* tiffio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ADB57E490D09267ED50E152AB2215B7E /* String-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD1FAEE5C9705C6420A5AA8EAAFD61 /* String-Ext.swift */; };
+		B043438BEF313679B025D0612D1A33BD /* CVImageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6741445E9AF169280F859D31EE1948 /* CVImageBuffer.swift */; };
+		B2028FF87FB74252D6B5CA8235999011 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083FB8B91A0E89E6F411BB85DCB29D8C /* BoundingBox.swift */; };
+		BEBE68E17AE2891CFB33207098A2427C /* osdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 101F130E52B2E12C974721E3394A2600 /* osdetect.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BF1D76E14C7537C0AA8E3B9A3F3EFD89 /* NFCPassportReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB748106849D00893391B5D9A674111 /* NFCPassportReader-dummy.m */; };
+		BF47DE7A6ED837F94CAAB687197E7A5E /* sudoku.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1E1AF39FB96F752085FEE14B28F46D /* sudoku.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C1C180D8726FB5707CCE0DBCAB8E3232 /* PassiveAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A86215344DA9836D59394705AE43A3B /* PassiveAuthentication.swift */; };
+		C3A978B4634C8A40CAB5834D45C6D943 /* QKMRZResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D4CBB9EEE8CD6F77F1F4708D03C15 /* QKMRZResult.swift */; };
+		C3E2F9633EF68CCAA96323FBE2726A54 /* RecognitionLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7491536965F603CD82721B2392DFD9D /* RecognitionLanguage.swift */; };
+		C43BCF317A645F45595EDF5D65AA01DB /* QKMRZScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBBC2E8A5A0CBC88C3B523DC4D8493E /* QKMRZScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B8D98C4A4B765B6B004DB2CFF23E3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123C3F1CB40702CE60C5227F8A7E292A /* Foundation.framework */; };
+		C4EEB25498567040B1CFD096B25777CC /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = DF22DE7EE9CD62599F1F9F6942911B2E /* tessdata */; };
+		C5F8973373C51E940FED903969AF0E71 /* pix.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCFEE69E77A7E46D607EC7DB98C1602 /* pix.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C8BA4C0017C5879A9CBEC0AE547D580E /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = CB0BA36EDDB7E9E1264621B105E11A22 /* stack.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CA8702DB81CE44A96F816023C64F00EF /* SwiftyTesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = 6833E0C84423ED3B88849B7B8C050CE1 /* SwiftyTesseract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9DCFC142DD059D208CD1F76FFB85BD /* ltrresultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9998E43175BAA9A4D3FE64FD7406B35D /* ltrresultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CBF3C40F679284024FF6A728104AA047 /* tesscallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F75158B5D0AF28EC731A1FD569A0CC3 /* tesscallback.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CE93317C8FC9FDCE566A22AA22870827 /* bbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 582AF3A98974D0846F912C988D7B1ACE /* bbuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CF9B15A6A7D4487470D81C84F8B5CB04 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5B5EFF512318147E0788DD87C6FD0D /* pnglibconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D005B5EF7FAE4B1DE4C27E1ACBF95E68 /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F817DA52134B6A9634BFB9266D68E60 /* endianness.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D49F86B027ED4918F17C104BE4882D17 /* bmfdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 138E99683ABA83258489D094969C9DDB /* bmfdata.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D50A63A290F9B2ED5A59EB4A0E7B5D6C /* allheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFDB7617ECFF9892FBE7D9AC388B067 /* allheaders.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D527660B9593DAE74A0EA387656032C4 /* capi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A768C9AF137DC80DD7B61CDD994AA33 /* capi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D5D25C850F569D6DF327E48067C325D9 /* baseapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 99682CE91C8EFCA4EA6643A755264353 /* baseapi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DA16131BB9404B195D4DEC2CA1960519 /* ptra.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B5E880BE07CFD884E8F59368F3F6F5 /* ptra.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E035205C7E9A4CDAE123257B24680A62 /* TagReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3D25075669678CF9781449E668A4D /* TagReader.swift */; };
+		E15F2B2D667A01A168299762D9E69116 /* tiff.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF25B8787F095C152538622585BA77 /* tiff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E30F4803B221BA4747663D93BA096C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123C3F1CB40702CE60C5227F8A7E292A /* Foundation.framework */; };
+		E3DA011E91FE5AE69958D869505B6ABF /* bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CF0730C125F2570338BE50125EC402 /* bmp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E61898384148C676386AE6756E10D0B8 /* arrayaccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A8D94B9076D246378E5F6E52C75722 /* arrayaccess.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E6C28E5CB16A16EC986B790C1A1A5B64 /* QKMRZParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F1822B938EC36AB8202F20D133261 /* QKMRZParser.swift */; };
+		E70A4C22DD1D84AFE5A4E4DC306C277D /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = 93563D6F013A4E5C914A4AFAAAA9A3CF /* jpeglib.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ECAB89D29EB1FEDA7AD55599EE9BA59B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E4323CE86F4B93DE868F399DCC6286 /* AudioToolbox.framework */; };
+		ED275E5099E6A15E13A9C603ED5DBEB4 /* QKMRZScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E86204F04C340AAEC4FE8AB04C404E6 /* QKMRZScanner-dummy.m */; };
+		ED49D2BE86F6112805964EE4AFEDF578 /* dewarp.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BAB8D84A9496CC2C7008B33284FEAD /* dewarp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ED9B5821E92325368290C4AF3BDD63C2 /* SecureMessaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C08FAE76FFA568EA63BC8C64B2F943 /* SecureMessaging.swift */; };
+		EE7A4E80942FFC8B34D4C59CF6C7F6C1 /* renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 46643B0F921AA8E5CBCAA743533146C8 /* renderer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EF99DFCDDF90F0EDF16EE3E10BA091BD /* 3DES_DESEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D6614C6D4D147EABE1CDFB0E6FE50 /* 3DES_DESEncryption.swift */; };
+		F1645F6BD6B1A5647F7F4F40802FAA05 /* td2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC36E29722A2B68E3986EB1C114CC35 /* td2.swift */; };
+		F3A06B5D72624BADCE593C1E8252D5A9 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2BBA1627DCA1A397FCFC37EEB6AA71 /* platform.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F3F6003983E440B476A2CE4E8C23D077 /* SwiftyTesseract-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 483B2598A55C44F66052DEA71A1CA934 /* SwiftyTesseract-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FA723C90689A49D6C520A7CC2A0BEC /* tiffvers.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E588BBA31EF557F54C1E3F00BCCB8A /* tiffvers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F50798429B75117D4FEDA66D60D5E5F1 /* MRZField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2699570ED9C01B3065665094C111A93 /* MRZField.swift */; };
+		F6CE368764978AD8857AD254C956A05F /* Pods-PassportScannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F62C64C2769588768EF2E53044AD098 /* Pods-PassportScannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6DAB2CDB46492BA31E1F9DB1A684A3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A3B8CDA26261C39F91DFB59435953D /* UIKit.framework */; };
+		F74E63AA93703887E1ADDDC7C4F44F53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A3B8CDA26261C39F91DFB59435953D /* UIKit.framework */; };
+		F83B2DCF33F22126F906EB1DA732E28B /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F346CD742B2635DE8E8122D29BE4FE /* png.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FAFDFCF1E5C78E527B5B95C1F07F3CA5 /* TesseractVariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52A6C21CAE3184D7B5C1BEF074CDE6 /* TesseractVariableName.swift */; };
+		FB08EA68E8B63B0BFB8B6E8AB9D295C8 /* ocrclass.h in Headers */ = {isa = PBXBuildFile; fileRef = A966BBE23542E624F680CA3A0829994E /* ocrclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FBE0697EB413B266F1D6B5FC3B0C919C /* NFCPassportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D2A1FB991757E6D93CF046C4ACA57C /* NFCPassportModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,37 +157,282 @@
 			remoteGlobalIDString = 4B713668412E337F84517C9CFD3D758C;
 			remoteInfo = "Pods-PassportScanner";
 		};
+		18EE05E526A0204C805855B8917A4D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FDA8701204211983085669C4E12E6FE;
+			remoteInfo = SwiftyTesseract;
+		};
+		1A23286D82220316D8D0A090A6655B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44846E5E2172F853B4F70588F8115052;
+			remoteInfo = QKMRZParser;
+		};
+		57F7701C23EC7BAFB9EC7F0378D7D304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		74DE0155B383B165630F80A50F2F9579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		ABE6C89CB6EAAB2BD1019B1F5A9FD1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FDA8701204211983085669C4E12E6FE;
+			remoteInfo = SwiftyTesseract;
+		};
+		C56CE13D6528789CAB47E95D46BD77E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A27FBFB272D0D46BF9B937D5AEEA741;
+			remoteInfo = QKMRZScanner;
+		};
+		E0EDBC89C6108C84619739D45676C00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44846E5E2172F853B4F70588F8115052;
+			remoteInfo = QKMRZParser;
+		};
+		EEC2646B3057300D851528F29D6AFED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BF2183371AE1848A42AD5EEF38B8DB;
+			remoteInfo = NFCPassportReader;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EFF2B0CF5BA16CB894192B171B79A6B /* Pods-PassportScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassportScanner.modulemap"; sourceTree = "<group>"; };
-		1479BA90ECB1EADCE5DB0622A70BABED /* Pods-PassportScannerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScannerTests-Info.plist"; sourceTree = "<group>"; };
-		17B6E61C530E52469F6EC73A5C30B9A3 /* Pods-PassportScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScanner-Info.plist"; sourceTree = "<group>"; };
-		1A071CC174DE8D4D8CFD97E6FAB9E64D /* Pods-PassportScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScanner.release.xcconfig"; sourceTree = "<group>"; };
-		1A9E31299EC41D1F8655430B35FAE685 /* Pods-PassportScannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassportScannerTests.modulemap"; sourceTree = "<group>"; };
-		1E34290CEC48094F8956A06E53F627FC /* Pods-PassportScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScanner-acknowledgements.plist"; sourceTree = "<group>"; };
-		2885973FE81D24222031C85C700C98EC /* Pods-PassportScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassportScanner-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34BEDA1197872AAB2DAD8164EEBB466F /* Pods-PassportScannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassportScannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B8B017D1CEA9B7D4CCE44C97A5225F1 /* Pods-PassportScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		022AF6FE695B48BA2177CEACF584B434 /* jbclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jbclass.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/jbclass.h; sourceTree = "<group>"; };
+		025420AD02EE7367D5D38CF8EAAB6865 /* Pods-PassportScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassportScanner.modulemap"; sourceTree = "<group>"; };
+		029F3EA6C8EBBA7BB8A277DBDA26BF84 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
+		035BE3AFEF8829E977F78EF2E4AE0696 /* Pods-PassportScannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassportScannerTests-dummy.m"; sourceTree = "<group>"; };
+		037D4CBB9EEE8CD6F77F1F4708D03C15 /* QKMRZResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZResult.swift; path = QKMRZParser/QKMRZResult.swift; sourceTree = "<group>"; };
+		03FC1CEA6006D838CED49914056980B2 /* tess_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tess_version.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/tess_version.h; sourceTree = "<group>"; };
+		042F5FC21BB6E19CB79B1B041722B2D3 /* BACHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BACHandler.swift; path = Sources/NFCPassportReader/BACHandler.swift; sourceTree = "<group>"; };
+		083FB8B91A0E89E6F411BB85DCB29D8C /* BoundingBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/BoundingBox.swift; sourceTree = "<group>"; };
+		0BD3484353A4C92ED6167A2BF0D36F62 /* liblept.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblept.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/liblept.a; sourceTree = "<group>"; };
+		101F130E52B2E12C974721E3394A2600 /* osdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = osdetect.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/osdetect.h; sourceTree = "<group>"; };
+		10F95DB4C46451E3A7A70D34716E7587 /* Pods-PassportScanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PassportScanner-frameworks.sh"; sourceTree = "<group>"; };
+		114294004C185D34631E554B081CCED1 /* resultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resultiterator.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/resultiterator.h; sourceTree = "<group>"; };
+		11ECAF1EC9FAAEC89A2F7C1B5F7BF5FF /* libtiff.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtiff.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libtiff.a; sourceTree = "<group>"; };
+		123C3F1CB40702CE60C5227F8A7E292A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		13546E714FFF34101753CCE8CB5E72C1 /* NFCPassportReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCPassportReader-umbrella.h"; sourceTree = "<group>"; };
+		138E99683ABA83258489D094969C9DDB /* bmfdata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmfdata.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bmfdata.h; sourceTree = "<group>"; };
+		145A0BD04D161A1350AB6D233A3CFB9E /* QKMRZParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZParser.release.xcconfig; sourceTree = "<group>"; };
+		14A380F6207CDBC92066BE3FF78F96A2 /* NFCPassportReader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NFCPassportReader-Info.plist"; sourceTree = "<group>"; };
+		1799A95024487444FC6739FAA1DB70A5 /* DataGroupParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroupParser.swift; path = Sources/NFCPassportReader/DataGroupParser.swift; sourceTree = "<group>"; };
+		18A6A8E30A8B00BA21B4B94EEEFCE974 /* alltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alltypes.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/alltypes.h; sourceTree = "<group>"; };
+		1DF8B2ABA90066ED47DCB72E46190963 /* regutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regutils.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/regutils.h; sourceTree = "<group>"; };
+		1E6F24C57C1547783FB4A3D7D73B423C /* QKMRZParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QKMRZParser-dummy.m"; sourceTree = "<group>"; };
+		1E86204F04C340AAEC4FE8AB04C404E6 /* QKMRZScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QKMRZScanner-dummy.m"; sourceTree = "<group>"; };
+		217651DE128D23726FB4848E17D46FEF /* ccbord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccbord.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/ccbord.h; sourceTree = "<group>"; };
+		241804FBBA79608C965471EABEEE0241 /* QKMRZParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-umbrella.h"; sourceTree = "<group>"; };
+		26A1227C97F0359F33AC64D70DE5C5A0 /* NFCPassportReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCPassportReader-prefix.pch"; sourceTree = "<group>"; };
+		27D98828D73FE4BB73C8B1CDEC13BC27 /* NFCPassportReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NFCPassportReader.modulemap; sourceTree = "<group>"; };
+		2A86215344DA9836D59394705AE43A3B /* PassiveAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassiveAuthentication.swift; path = Sources/NFCPassportReader/PassiveAuthentication.swift; sourceTree = "<group>"; };
+		2C302B3A72A43804A9DE68D48157694C /* publictypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publictypes.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/publictypes.h; sourceTree = "<group>"; };
+		2DB152BE82DDEDBF4A2E3EFBC332B660 /* Pods-PassportScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScanner.release.xcconfig"; sourceTree = "<group>"; };
+		3109D00888CE25BABEE0E09F222A6FC8 /* Pods-PassportScannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		312A9DD06959B09142B79643DFBBC01C /* LanguageStringConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageStringConverter.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageStringConverter.swift; sourceTree = "<group>"; };
+		343F6F8243C9F7FC9B44AF65970145DD /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/array.h; sourceTree = "<group>"; };
+		37CDA2FBB0A61C1E46194EEEE97D2CA0 /* QKMRZParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZParser.debug.xcconfig; sourceTree = "<group>"; };
+		38A8D94B9076D246378E5F6E52C75722 /* arrayaccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/arrayaccess.h; sourceTree = "<group>"; };
+		3A768C9AF137DC80DD7B61CDD994AA33 /* capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = capi.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/capi.h; sourceTree = "<group>"; };
+		3BD8611B72DF7B05C0DE8C409B776498 /* Pods-PassportScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F2D6614C6D4D147EABE1CDFB0E6FE50 /* 3DES_DESEncryption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = 3DES_DESEncryption.swift; path = Sources/NFCPassportReader/3DES_DESEncryption.swift; sourceTree = "<group>"; };
+		3F817DA52134B6A9634BFB9266D68E60 /* endianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/endianness.h; sourceTree = "<group>"; };
+		3FA48763F6C89DB38AEE2A7C0D99760A /* thresholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/thresholder.h; sourceTree = "<group>"; };
+		420F67B2B205C36F9A619E6926CC07AB /* QKMRZScanResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZScanResult.swift; path = QKMRZScanner/QKMRZScanResult.swift; sourceTree = "<group>"; };
+		44294F8BBF058931A64869C7514B78F5 /* tiffconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffconf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiffconf.h; sourceTree = "<group>"; };
+		4512EB3EB056F42E8130478B5FC7E564 /* readbarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = readbarcode.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/readbarcode.h; sourceTree = "<group>"; };
+		45B5E880BE07CFD884E8F59368F3F6F5 /* ptra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/ptra.h; sourceTree = "<group>"; };
+		46643B0F921AA8E5CBCAA743533146C8 /* renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = renderer.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/renderer.h; sourceTree = "<group>"; };
+		483B2598A55C44F66052DEA71A1CA934 /* SwiftyTesseract-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-umbrella.h"; sourceTree = "<group>"; };
+		48F87F7FB76889C7B22A5C093EFF75F2 /* watershed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = watershed.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/watershed.h; sourceTree = "<group>"; };
+		4B70CCAEAD42F6C864479F3487E7621F /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Sources/NFCPassportReader/Logging.swift; sourceTree = "<group>"; };
+		4DAE902EB2D75C9339161B83290C32AD /* QKMRZScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZScannerView.swift; path = QKMRZScanner/QKMRZScannerView.swift; sourceTree = "<group>"; };
+		4EAEA8E18E8647F1272A55877F38D914 /* MRZFieldFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZFieldFormatter.swift; path = QKMRZParser/MRZFieldFormatter.swift; sourceTree = "<group>"; };
+		53B1CAFA9A6E20EA6EDA46C588DDBE95 /* td3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = td3.swift; path = QKMRZParser/Parsers/td3.swift; sourceTree = "<group>"; };
+		5635BCBB64DA8DCB73E66AFFA17A07DD /* QKMRZScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZScanner.release.xcconfig; sourceTree = "<group>"; };
+		565D865C13252BA16D26D26E7A07BC09 /* libjpeg.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libjpeg.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libjpeg.a; sourceTree = "<group>"; };
+		582AF3A98974D0846F912C988D7B1ACE /* bbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbuffer.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bbuffer.h; sourceTree = "<group>"; };
+		5B1594B7ABEE67B7CCD33971D7AA3D4C /* stringcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringcode.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/stringcode.h; sourceTree = "<group>"; };
+		5CF623D1C9B9B9B65DE0B01C2C717928 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
+		5D1E1AF39FB96F752085FEE14B28F46D /* sudoku.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/sudoku.h; sourceTree = "<group>"; };
+		5E4C687CF38473D1082DA9F08C0E35ED /* morph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = morph.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/morph.h; sourceTree = "<group>"; };
+		60ED153D91B2D7B358B00880F32A60EB /* imageio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imageio.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/imageio.h; sourceTree = "<group>"; };
+		626CB0F33FE22915B642C8D90ADA41F8 /* SwiftyTesseract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.debug.xcconfig; sourceTree = "<group>"; };
+		63A3B8CDA26261C39F91DFB59435953D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		651BCC8C55B9A96F36717D71C5B29EB3 /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
+		6595A05E5954994CD28813622FE49841 /* Pods-PassportScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		6715982263A124C480903F811BA610C9 /* SwiftyTesseract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseract.swift; path = SwiftyTesseract/SwiftyTesseract/SwiftyTesseract.swift; sourceTree = "<group>"; };
+		67CD0965836C6BBD1389246778241ECC /* QKMRZScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZScanner-prefix.pch"; sourceTree = "<group>"; };
+		6833E0C84423ED3B88849B7B8C050CE1 /* SwiftyTesseract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyTesseract.h; path = SwiftyTesseract/SwiftyTesseract/SwiftyTesseract.h; sourceTree = "<group>"; };
+		699351EE6241FF69738194B733C6EE68 /* SwiftyTesseract.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.release.xcconfig; sourceTree = "<group>"; };
+		6BFDB7617ECFF9892FBE7D9AC388B067 /* allheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allheaders.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/allheaders.h; sourceTree = "<group>"; };
+		6BFF0B7F6AF94EB05C53135326DE18D5 /* QKMRZParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QKMRZParser-Info.plist"; sourceTree = "<group>"; };
+		6C1EF2FC3D3E8B6A5EEE41939FF40DC5 /* strngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/strngs.h; sourceTree = "<group>"; };
+		6C28258BF7551EA810017F4DB71210C7 /* jerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jerror.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jerror.h; sourceTree = "<group>"; };
+		6CF2EBE8F69287EAA0BFB9383C07871A /* pageiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/pageiterator.h; sourceTree = "<group>"; };
+		6E6741445E9AF169280F859D31EE1948 /* CVImageBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVImageBuffer.swift; path = QKMRZScanner/Extensions/CVImageBuffer.swift; sourceTree = "<group>"; };
+		70BE8CE1CBD3914664A0962A920D4DA0 /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/queue.h; sourceTree = "<group>"; };
+		72EA9715D68C5914EB1C25FC0A0BC476 /* EngineMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EngineMode.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/EngineMode.swift; sourceTree = "<group>"; };
 		732CB9130B6BAB1332B507F9E8572368 /* Pods_PassportScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PassportScanner.framework; path = "Pods-PassportScanner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82123C5A9A8709872C77E2F46B1CD467 /* Pods-PassportScannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8F93076E37E80E7A68F087BD67DC3F50 /* Pods-PassportScannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassportScannerTests-umbrella.h"; sourceTree = "<group>"; };
-		91E2CC095AAAC13CE9AACF4C5FF97F5F /* Pods-PassportScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassportScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9BA209F5FB97F9B293632B065C0FD91F /* Pods-PassportScannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassportScannerTests-dummy.m"; sourceTree = "<group>"; };
+		73BAB8D84A9496CC2C7008B33284FEAD /* dewarp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/dewarp.h; sourceTree = "<group>"; };
+		76892D79FB140C5FF75B5196CF0ED900 /* Pods-PassportScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassportScanner-dummy.m"; sourceTree = "<group>"; };
+		7A86B6BF03F3D7CF0FDBBBBC841480B6 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		7C4E058CD6F428B1CF60444A07E189E3 /* apitypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = apitypes.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/apitypes.h; sourceTree = "<group>"; };
+		7F1FF54CDFD742F1F13571C2C18570AE /* QKMRZParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QKMRZParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F52A6C21CAE3184D7B5C1BEF074CDE6 /* TesseractVariableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TesseractVariableName.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/TesseractVariableName.swift; sourceTree = "<group>"; };
+		7F75158B5D0AF28EC731A1FD569A0CC3 /* tesscallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesscallback.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/tesscallback.h; sourceTree = "<group>"; };
+		806C5632D92948BE62611ACBAF728A6E /* PassportReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassportReader.swift; path = Sources/NFCPassportReader/PassportReader.swift; sourceTree = "<group>"; };
+		8471E78514742D879CF22621752BE36D /* CIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIImage.swift; path = QKMRZScanner/Extensions/CIImage.swift; sourceTree = "<group>"; };
+		85AD1FAEE5C9705C6420A5AA8EAAFD61 /* String-Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String-Ext.swift"; path = "QKMRZParser/String-Ext.swift"; sourceTree = "<group>"; };
+		893BF6CF190DC846B7859120882C956D /* SwiftyTesseract-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyTesseract-Info.plist"; sourceTree = "<group>"; };
+		8CEDA669BF58BEAD3D81A4563BA5C7FD /* ResultIteratorLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultIteratorLevel.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/ResultIteratorLevel.swift; sourceTree = "<group>"; };
+		8F62C64C2769588768EF2E53044AD098 /* Pods-PassportScannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassportScannerTests-umbrella.h"; sourceTree = "<group>"; };
+		9149642E983A06BB2AE6867A2462962B /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/list.h; sourceTree = "<group>"; };
+		91E9A6DA4954F01F5E25CFD0F32C4BF5 /* CIContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIContext.swift; path = QKMRZScanner/Extensions/CIContext.swift; sourceTree = "<group>"; };
+		93563D6F013A4E5C914A4AFAAAA9A3CF /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jpeglib.h; sourceTree = "<group>"; };
+		95E588BBA31EF557F54C1E3F00BCCB8A /* tiffvers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffvers.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiffvers.h; sourceTree = "<group>"; };
+		96B16DF3356B423A223B829E2BDA15E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		9725DED8CA873D0B6B39FA37EE54E7C6 /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jconfig.h; sourceTree = "<group>"; };
+		97DCCA7C5195291267A4AD39A58CCAB0 /* Pods-PassportScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScanner-Info.plist"; sourceTree = "<group>"; };
+		99682CE91C8EFCA4EA6643A755264353 /* baseapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/baseapi.h; sourceTree = "<group>"; };
+		9998E43175BAA9A4D3FE64FD7406B35D /* ltrresultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/ltrresultiterator.h; sourceTree = "<group>"; };
+		9B5DA32B909E7318B7B1AD31DC83F679 /* AVCaptureVideoOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVCaptureVideoOrientation.swift; path = QKMRZScanner/Extensions/AVCaptureVideoOrientation.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D96A5A67D8D9C6FF364F194BD05B4843 /* Pods-PassportScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScannerTests.release.xcconfig"; sourceTree = "<group>"; };
-		E60FF85F8B4E9D5C85CCD9CB4798695E /* Pods-PassportScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F552CE0DB96FDEC6858E462BCFEF130B /* Pods-PassportScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassportScanner-dummy.m"; sourceTree = "<group>"; };
+		9DC36E29722A2B68E3986EB1C114CC35 /* td2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = td2.swift; path = QKMRZParser/Parsers/td2.swift; sourceTree = "<group>"; };
+		9E96B9952B197038DF7DC09D696C6B48 /* Pods-PassportScannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassportScannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FE7EEB4B4621AA201D065A88CD8A1FE /* LuminanceThresholdFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuminanceThresholdFilter.swift; path = QKMRZScanner/LuminanceThresholdFilter.swift; sourceTree = "<group>"; };
+		A16B61B6FF0B8E6D8A2652B943304649 /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jmorecfg.h; sourceTree = "<group>"; };
+		A222DAE0E18FA6751A0BD9E734F92DC4 /* bmf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bmf.h; sourceTree = "<group>"; };
+		A2699570ED9C01B3065665094C111A93 /* MRZField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZField.swift; path = QKMRZParser/MRZField.swift; sourceTree = "<group>"; };
+		A37FFDE7EB2CFD3EA72457334C8A0A25 /* QKMRZScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QKMRZScanner.framework; path = QKMRZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BFB4D89F3B3A0C354C49ACC55CDD27 /* QKMRZScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZScanner.debug.xcconfig; sourceTree = "<group>"; };
+		A84D4CDC88F275E7E395823E8D0D4374 /* environ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = environ.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/environ.h; sourceTree = "<group>"; };
+		A966BBE23542E624F680CA3A0829994E /* ocrclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/ocrclass.h; sourceTree = "<group>"; };
+		AAFF8BB70FB17361047C242D78543BBB /* QKMRZParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QKMRZParser.modulemap; sourceTree = "<group>"; };
+		AB2BBA1627DCA1A397FCFC37EEB6AA71 /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/platform.h; sourceTree = "<group>"; };
+		AF6DC1875DCB18BB61E1BD8B605763D6 /* SwiftyTesseract-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTesseract-dummy.m"; sourceTree = "<group>"; };
+		B1542FD8D1A4BCE8C05E8392232EE9F2 /* tiffio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffio.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiffio.h; sourceTree = "<group>"; };
+		B1C23CC5E5E2F811AFD2E5B427BD3EC8 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/heap.h; sourceTree = "<group>"; };
+		B7491536965F603CD82721B2392DFD9D /* RecognitionLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognitionLanguage.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/RecognitionLanguage.swift; sourceTree = "<group>"; };
+		B7C835616E404C0435A8AC06582CB53B /* SwiftyTesseract.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTesseract.modulemap; sourceTree = "<group>"; };
+		B9B38B21BE853528B38E727AE573EB5F /* Pods-PassportScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassportScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA57C55D6E0674CA2241B7A8FA4921F9 /* Pods-PassportScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDE0AAF88168ED6A37A36D6F4CDFBFC9 /* QKMRZScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QKMRZScanner-Info.plist"; sourceTree = "<group>"; };
+		BDE6FDC1F43FA580DB24DDAC23E9ED6C /* NFCPassportReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCPassportReader.debug.xcconfig; sourceTree = "<group>"; };
+		BEB417D6D3DF708D4AA385356268E559 /* helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/helpers.h; sourceTree = "<group>"; };
+		BFCFEE69E77A7E46D607EC7DB98C1602 /* pix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pix.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/pix.h; sourceTree = "<group>"; };
+		C10D0F5BE6ECB7D309F10B59218EB06A /* SwiftyTesseract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D252602E1D3D82E2DA3466C29DF383 /* unichar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unichar.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/unichar.h; sourceTree = "<group>"; };
+		C7998E6B90E86746881B723F8DDA6AA3 /* td1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = td1.swift; path = QKMRZParser/Parsers/td1.swift; sourceTree = "<group>"; };
+		C9D2A1FB991757E6D93CF046C4ACA57C /* NFCPassportModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFCPassportModel.swift; path = Sources/NFCPassportReader/NFCPassportModel.swift; sourceTree = "<group>"; };
+		CB0BA36EDDB7E9E1264621B105E11A22 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/stack.h; sourceTree = "<group>"; };
+		CD01D32CC4B9529F686025842F9A18DC /* QKMRZParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-prefix.pch"; sourceTree = "<group>"; };
+		D099EFE296FD91B23D58D690D735DE89 /* Pods-PassportScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassportScanner-umbrella.h"; sourceTree = "<group>"; };
+		D450A4FE25050D24EA4D1784BD91EE8D /* X509Wrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = X509Wrapper.swift; path = Sources/NFCPassportReader/X509Wrapper.swift; sourceTree = "<group>"; };
+		D45904059262F2412182122C2105831F /* Pods-PassportScannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassportScannerTests.modulemap"; sourceTree = "<group>"; };
+		D492ED29B095925DE0C2BB23E9425D5E /* Pods-PassportScannerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScannerTests-Info.plist"; sourceTree = "<group>"; };
+		D678D70A310585AF06614FAF6C30DBD8 /* bilateral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bilateral.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bilateral.h; sourceTree = "<group>"; };
+		D7AD3E0236F70FB8D040D5C3AE2B1CDE /* leptwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leptwin.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/leptwin.h; sourceTree = "<group>"; };
+		D9D54D479114651F65D907118CCD28CC /* genericvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/genericvector.h; sourceTree = "<group>"; };
+		DACBA47604A739738FD1AAA94C5FBF8C /* RecognizedBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognizedBlock.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/RecognizedBlock.swift; sourceTree = "<group>"; };
+		DCBBC2E8A5A0CBC88C3B523DC4D8493E /* QKMRZScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZScanner-umbrella.h"; sourceTree = "<group>"; };
+		DCC3D25075669678CF9781449E668A4D /* TagReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagReader.swift; path = Sources/NFCPassportReader/TagReader.swift; sourceTree = "<group>"; };
+		DF22DE7EE9CD62599F1F9F6942911B2E /* tessdata */ = {isa = PBXFileReference; includeInIndex = 1; name = tessdata; path = "QKMRZScanner/Supporting Files/tessdata"; sourceTree = "<group>"; };
+		E119971AE8EB46E75CD99A5A2D83E7CD /* NFCPassportReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCPassportReader.release.xcconfig; sourceTree = "<group>"; };
+		E2E4323CE86F4B93DE868F399DCC6286 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		E3F9B4B215F0F395DD04644095BBED1A /* OpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenSSL.framework; path = Frameworks/ios/OpenSSL.framework; sourceTree = "<group>"; };
+		E40B031A16A9BD283CEB6560C0E6F4A2 /* serialis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/serialis.h; sourceTree = "<group>"; };
+		E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QKMRZParser.framework; path = QKMRZParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FEA33F2073C9B60EE835EFEB266CA6 /* rbtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbtree.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/rbtree.h; sourceTree = "<group>"; };
+		E670601CFA2F34C4BDB1A9420EA94B1A /* SwiftyTesseract-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-prefix.pch"; sourceTree = "<group>"; };
+		E7C08FAE76FFA568EA63BC8C64B2F943 /* SecureMessaging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureMessaging.swift; path = Sources/NFCPassportReader/SecureMessaging.swift; sourceTree = "<group>"; };
+		E7C588D502143788AA6DD770A2DF3EF4 /* NFCPassportReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NFCPassportReader.framework; path = NFCPassportReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F346CD742B2635DE8E8122D29BE4FE /* png.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = png.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/png.h; sourceTree = "<group>"; };
+		E9CF0730C125F2570338BE50125EC402 /* bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bmp.h; sourceTree = "<group>"; };
+		EA5B5EFF512318147E0788DD87C6FD0D /* pnglibconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnglibconf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/pnglibconf.h; sourceTree = "<group>"; };
+		EA7BD6FB3AAA324EF15498E24C6268CC /* gplot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/gplot.h; sourceTree = "<group>"; };
+		EAB748106849D00893391B5D9A674111 /* NFCPassportReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFCPassportReader-dummy.m"; sourceTree = "<group>"; };
+		EEE6A78239AEBAB3816F7BC93F4FD7EA /* Pods-PassportScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E1F334C58898C8FDF0B511E324BBBC /* QKMRZScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QKMRZScanner.modulemap; sourceTree = "<group>"; };
+		F31F1822B938EC36AB8202F20D133261 /* QKMRZParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZParser.swift; path = QKMRZParser/QKMRZParser.swift; sourceTree = "<group>"; };
+		F39E8042F8D2254E554BA079DA32A241 /* SwiftyTesseractError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseractError.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/SwiftyTesseractError.swift; sourceTree = "<group>"; };
+		F4AF25B8787F095C152538622585BA77 /* tiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiff.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiff.h; sourceTree = "<group>"; };
+		F6269F83BFAB56A9D2C1BDB20E4AA8CC /* libpng.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libpng.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libpng.a; sourceTree = "<group>"; };
+		F68B380B7AD7FABB7F745BF71B434092 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/NFCPassportReader/Utils.swift; sourceTree = "<group>"; };
 		F6A0CEAC7A6069A6FBA1BB38496F38B6 /* Pods_PassportScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PassportScannerTests.framework; path = "Pods-PassportScannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTesseract.framework; path = SwiftyTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7512D31A28E96C53186C4D81CAF9F5E /* OpenSSLUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenSSLUtils.swift; path = Sources/NFCPassportReader/OpenSSLUtils.swift; sourceTree = "<group>"; };
+		F8DC89C28EF8B628EB407AA28DB1B580 /* QKCutoutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKCutoutView.swift; path = QKMRZScanner/QKCutoutView.swift; sourceTree = "<group>"; };
+		FAF89259D942EAEBB1E75B96DAEC68AC /* pngconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/pngconf.h; sourceTree = "<group>"; };
+		FB426EB8AA0185800FBF9D1E753C7E21 /* libtesseract.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtesseract.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libtesseract.a; sourceTree = "<group>"; };
+		FD42AEB736FE6424EA95346523D29B05 /* recog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = recog.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/recog.h; sourceTree = "<group>"; };
+		FF4C716557526868937D3A54B98E8A7C /* LanguageModelDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageModelDataSource.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageModelDataSource.swift; sourceTree = "<group>"; };
+		FFFB3E3608DF594CEAC79CEB3B1BF208 /* Bundle+pathToTrainedData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+pathToTrainedData.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/Bundle+pathToTrainedData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		96943CE9E5512B34F064C79EEC33FB37 /* Frameworks */ = {
+		1386726C5EADEBCF81B9C6519085A636 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D12F60EEC43F0FB7D39346287CE2157D /* Foundation.framework in Frameworks */,
+				C4B8D98C4A4B765B6B004DB2CFF23E3F /* Foundation.framework in Frameworks */,
+				F74E63AA93703887E1ADDDC7C4F44F53 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E59E1EED2A75086FFD390AFBD4C915E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F046DA8DEC1EF57F2CBF5E77C0E640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723B530F814076C10689DC7AE567A4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA991885CC1D9FBC77C6BC26B8D1FE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743EE6C1DD5D2599B1B6209BD341043B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC76BA2C5E855E2F50E128410D0C7C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80ACBAB36510492A1A49B7A9CF7F669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB89D29EB1FEDA7AD55599EE9BA59B /* AudioToolbox.framework in Frameworks */,
+				7771D790CC28C5F6EE6C54AF47357569 /* AVFoundation.framework in Frameworks */,
+				4466AACD74009FD488FAFCD127C11FF3 /* CoreImage.framework in Frameworks */,
+				58AB9CCA1EEFE1380CAEF07F68C1380E /* Foundation.framework in Frameworks */,
+				6749E138F45EAF53E3D04DB8B0329A5B /* QKMRZParser.framework in Frameworks */,
+				0039DCED84C4B64D23A7EECC9EADDC21 /* SwiftyTesseract.framework in Frameworks */,
+				F6DAB2CDB46492BA31E1F9DB1A684A3A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,90 +447,370 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		57E664E5B2690E38AC6A2A97C7409614 /* Pods-PassportScannerTests */ = {
+		064F4341C7E92061C8E1A1C54E802FC2 /* SwiftyTesseract */ = {
 			isa = PBXGroup;
 			children = (
-				1A9E31299EC41D1F8655430B35FAE685 /* Pods-PassportScannerTests.modulemap */,
-				34BEDA1197872AAB2DAD8164EEBB466F /* Pods-PassportScannerTests-acknowledgements.markdown */,
-				82123C5A9A8709872C77E2F46B1CD467 /* Pods-PassportScannerTests-acknowledgements.plist */,
-				9BA209F5FB97F9B293632B065C0FD91F /* Pods-PassportScannerTests-dummy.m */,
-				1479BA90ECB1EADCE5DB0622A70BABED /* Pods-PassportScannerTests-Info.plist */,
-				8F93076E37E80E7A68F087BD67DC3F50 /* Pods-PassportScannerTests-umbrella.h */,
-				E60FF85F8B4E9D5C85CCD9CB4798695E /* Pods-PassportScannerTests.debug.xcconfig */,
-				D96A5A67D8D9C6FF364F194BD05B4843 /* Pods-PassportScannerTests.release.xcconfig */,
+				6BFDB7617ECFF9892FBE7D9AC388B067 /* allheaders.h */,
+				18A6A8E30A8B00BA21B4B94EEEFCE974 /* alltypes.h */,
+				7C4E058CD6F428B1CF60444A07E189E3 /* apitypes.h */,
+				343F6F8243C9F7FC9B44AF65970145DD /* array.h */,
+				38A8D94B9076D246378E5F6E52C75722 /* arrayaccess.h */,
+				99682CE91C8EFCA4EA6643A755264353 /* baseapi.h */,
+				582AF3A98974D0846F912C988D7B1ACE /* bbuffer.h */,
+				D678D70A310585AF06614FAF6C30DBD8 /* bilateral.h */,
+				A222DAE0E18FA6751A0BD9E734F92DC4 /* bmf.h */,
+				138E99683ABA83258489D094969C9DDB /* bmfdata.h */,
+				E9CF0730C125F2570338BE50125EC402 /* bmp.h */,
+				083FB8B91A0E89E6F411BB85DCB29D8C /* BoundingBox.swift */,
+				FFFB3E3608DF594CEAC79CEB3B1BF208 /* Bundle+pathToTrainedData.swift */,
+				3A768C9AF137DC80DD7B61CDD994AA33 /* capi.h */,
+				217651DE128D23726FB4848E17D46FEF /* ccbord.h */,
+				73BAB8D84A9496CC2C7008B33284FEAD /* dewarp.h */,
+				3F817DA52134B6A9634BFB9266D68E60 /* endianness.h */,
+				72EA9715D68C5914EB1C25FC0A0BC476 /* EngineMode.swift */,
+				A84D4CDC88F275E7E395823E8D0D4374 /* environ.h */,
+				D9D54D479114651F65D907118CCD28CC /* genericvector.h */,
+				EA7BD6FB3AAA324EF15498E24C6268CC /* gplot.h */,
+				B1C23CC5E5E2F811AFD2E5B427BD3EC8 /* heap.h */,
+				BEB417D6D3DF708D4AA385356268E559 /* helpers.h */,
+				60ED153D91B2D7B358B00880F32A60EB /* imageio.h */,
+				022AF6FE695B48BA2177CEACF584B434 /* jbclass.h */,
+				9725DED8CA873D0B6B39FA37EE54E7C6 /* jconfig.h */,
+				6C28258BF7551EA810017F4DB71210C7 /* jerror.h */,
+				A16B61B6FF0B8E6D8A2652B943304649 /* jmorecfg.h */,
+				93563D6F013A4E5C914A4AFAAAA9A3CF /* jpeglib.h */,
+				FF4C716557526868937D3A54B98E8A7C /* LanguageModelDataSource.swift */,
+				312A9DD06959B09142B79643DFBBC01C /* LanguageStringConverter.swift */,
+				D7AD3E0236F70FB8D040D5C3AE2B1CDE /* leptwin.h */,
+				9149642E983A06BB2AE6867A2462962B /* list.h */,
+				9998E43175BAA9A4D3FE64FD7406B35D /* ltrresultiterator.h */,
+				5E4C687CF38473D1082DA9F08C0E35ED /* morph.h */,
+				A966BBE23542E624F680CA3A0829994E /* ocrclass.h */,
+				101F130E52B2E12C974721E3394A2600 /* osdetect.h */,
+				6CF2EBE8F69287EAA0BFB9383C07871A /* pageiterator.h */,
+				BFCFEE69E77A7E46D607EC7DB98C1602 /* pix.h */,
+				AB2BBA1627DCA1A397FCFC37EEB6AA71 /* platform.h */,
+				E7F346CD742B2635DE8E8122D29BE4FE /* png.h */,
+				FAF89259D942EAEBB1E75B96DAEC68AC /* pngconf.h */,
+				EA5B5EFF512318147E0788DD87C6FD0D /* pnglibconf.h */,
+				45B5E880BE07CFD884E8F59368F3F6F5 /* ptra.h */,
+				2C302B3A72A43804A9DE68D48157694C /* publictypes.h */,
+				70BE8CE1CBD3914664A0962A920D4DA0 /* queue.h */,
+				E5FEA33F2073C9B60EE835EFEB266CA6 /* rbtree.h */,
+				4512EB3EB056F42E8130478B5FC7E564 /* readbarcode.h */,
+				FD42AEB736FE6424EA95346523D29B05 /* recog.h */,
+				B7491536965F603CD82721B2392DFD9D /* RecognitionLanguage.swift */,
+				DACBA47604A739738FD1AAA94C5FBF8C /* RecognizedBlock.swift */,
+				1DF8B2ABA90066ED47DCB72E46190963 /* regutils.h */,
+				46643B0F921AA8E5CBCAA743533146C8 /* renderer.h */,
+				114294004C185D34631E554B081CCED1 /* resultiterator.h */,
+				8CEDA669BF58BEAD3D81A4563BA5C7FD /* ResultIteratorLevel.swift */,
+				E40B031A16A9BD283CEB6560C0E6F4A2 /* serialis.h */,
+				CB0BA36EDDB7E9E1264621B105E11A22 /* stack.h */,
+				5CF623D1C9B9B9B65DE0B01C2C717928 /* String+Extensions.swift */,
+				5B1594B7ABEE67B7CCD33971D7AA3D4C /* stringcode.h */,
+				6C1EF2FC3D3E8B6A5EEE41939FF40DC5 /* strngs.h */,
+				5D1E1AF39FB96F752085FEE14B28F46D /* sudoku.h */,
+				6833E0C84423ED3B88849B7B8C050CE1 /* SwiftyTesseract.h */,
+				6715982263A124C480903F811BA610C9 /* SwiftyTesseract.swift */,
+				F39E8042F8D2254E554BA079DA32A241 /* SwiftyTesseractError.swift */,
+				03FC1CEA6006D838CED49914056980B2 /* tess_version.h */,
+				7F75158B5D0AF28EC731A1FD569A0CC3 /* tesscallback.h */,
+				7F52A6C21CAE3184D7B5C1BEF074CDE6 /* TesseractVariableName.swift */,
+				3FA48763F6C89DB38AEE2A7C0D99760A /* thresholder.h */,
+				F4AF25B8787F095C152538622585BA77 /* tiff.h */,
+				44294F8BBF058931A64869C7514B78F5 /* tiffconf.h */,
+				B1542FD8D1A4BCE8C05E8392232EE9F2 /* tiffio.h */,
+				95E588BBA31EF557F54C1E3F00BCCB8A /* tiffvers.h */,
+				C3D252602E1D3D82E2DA3466C29DF383 /* unichar.h */,
+				48F87F7FB76889C7B22A5C093EFF75F2 /* watershed.h */,
+				C6B20AAFD2F68194AA0A6A144762EFD0 /* Frameworks */,
+				E2B678C277EC74DF1FEAC0255AC7D8DB /* Support Files */,
 			);
-			name = "Pods-PassportScannerTests";
-			path = "Target Support Files/Pods-PassportScannerTests";
+			name = SwiftyTesseract;
+			path = SwiftyTesseract;
 			sourceTree = "<group>";
 		};
-		5A4ED9FF7A7C01CED5149826250A51F0 /* Products */ = {
+		3C90E77FC66BB5E8123D4628096E218D /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				E7C588D502143788AA6DD770A2DF3EF4 /* NFCPassportReader.framework */,
 				732CB9130B6BAB1332B507F9E8572368 /* Pods_PassportScanner.framework */,
 				F6A0CEAC7A6069A6FBA1BB38496F38B6 /* Pods_PassportScannerTests.framework */,
+				E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser.framework */,
+				A37FFDE7EB2CFD3EA72457334C8A0A25 /* QKMRZScanner.framework */,
+				F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8EE8C3FC7ADAE935866B3B767366C77 /* Pods-PassportScanner */ = {
+		4D99F0EE30E8887C4DDC66034177589E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0EFF2B0CF5BA16CB894192B171B79A6B /* Pods-PassportScanner.modulemap */,
-				91E2CC095AAAC13CE9AACF4C5FF97F5F /* Pods-PassportScanner-acknowledgements.markdown */,
-				1E34290CEC48094F8956A06E53F627FC /* Pods-PassportScanner-acknowledgements.plist */,
-				F552CE0DB96FDEC6858E462BCFEF130B /* Pods-PassportScanner-dummy.m */,
-				17B6E61C530E52469F6EC73A5C30B9A3 /* Pods-PassportScanner-Info.plist */,
-				2885973FE81D24222031C85C700C98EC /* Pods-PassportScanner-umbrella.h */,
-				5B8B017D1CEA9B7D4CCE44C97A5225F1 /* Pods-PassportScanner.debug.xcconfig */,
-				1A071CC174DE8D4D8CFD97E6FAB9E64D /* Pods-PassportScanner.release.xcconfig */,
+				C76E6DE721CCCBBAA6963872D90395F6 /* NFCPassportReader */,
+				8B230B749A2DEAB6CC041DAF0F146D2C /* OpenSSL-Universal */,
+				DD1B38A5CBFE1A8BDE14F5AAC9424196 /* QKMRZParser */,
+				B95A702F12DAA0C8B17CC0A2A58FB245 /* QKMRZScanner */,
+				064F4341C7E92061C8E1A1C54E802FC2 /* SwiftyTesseract */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E413CE7D225A9268292C7E5618CCD27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF8BB70FB17361047C242D78543BBB /* QKMRZParser.modulemap */,
+				1E6F24C57C1547783FB4A3D7D73B423C /* QKMRZParser-dummy.m */,
+				6BFF0B7F6AF94EB05C53135326DE18D5 /* QKMRZParser-Info.plist */,
+				CD01D32CC4B9529F686025842F9A18DC /* QKMRZParser-prefix.pch */,
+				241804FBBA79608C965471EABEEE0241 /* QKMRZParser-umbrella.h */,
+				37CDA2FBB0A61C1E46194EEEE97D2CA0 /* QKMRZParser.debug.xcconfig */,
+				145A0BD04D161A1350AB6D233A3CFB9E /* QKMRZParser.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QKMRZParser";
+			sourceTree = "<group>";
+		};
+		527A3E9CAB2D0A41FEE6E99B2B76E345 /* Pods-PassportScanner */ = {
+			isa = PBXGroup;
+			children = (
+				025420AD02EE7367D5D38CF8EAAB6865 /* Pods-PassportScanner.modulemap */,
+				B9B38B21BE853528B38E727AE573EB5F /* Pods-PassportScanner-acknowledgements.markdown */,
+				BA57C55D6E0674CA2241B7A8FA4921F9 /* Pods-PassportScanner-acknowledgements.plist */,
+				76892D79FB140C5FF75B5196CF0ED900 /* Pods-PassportScanner-dummy.m */,
+				10F95DB4C46451E3A7A70D34716E7587 /* Pods-PassportScanner-frameworks.sh */,
+				97DCCA7C5195291267A4AD39A58CCAB0 /* Pods-PassportScanner-Info.plist */,
+				D099EFE296FD91B23D58D690D735DE89 /* Pods-PassportScanner-umbrella.h */,
+				6595A05E5954994CD28813622FE49841 /* Pods-PassportScanner.debug.xcconfig */,
+				2DB152BE82DDEDBF4A2E3EFBC332B660 /* Pods-PassportScanner.release.xcconfig */,
 			);
 			name = "Pods-PassportScanner";
 			path = "Target Support Files/Pods-PassportScanner";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		5C356A6B6721A307741E6375841E4131 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				527A3E9CAB2D0A41FEE6E99B2B76E345 /* Pods-PassportScanner */,
+				CB3E0D063D04F4DB37259AF04DB2AE6B /* Pods-PassportScannerTests */,
 			);
-			name = iOS;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B230B749A2DEAB6CC041DAF0F146D2C /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD787176611162D878AE56541D6DE4 /* Framework */,
+				8E05F394E0498F23D3A029F7D48E6C16 /* Support Files */,
+			);
+			name = "OpenSSL-Universal";
+			path = "OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		8E05F394E0498F23D3A029F7D48E6C16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				029F3EA6C8EBBA7BB8A277DBDA26BF84 /* OpenSSL-Universal.debug.xcconfig */,
+				651BCC8C55B9A96F36717D71C5B29EB3 /* OpenSSL-Universal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		A64444F0724D76D6EB3DDC68E4D4F47B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27D98828D73FE4BB73C8B1CDEC13BC27 /* NFCPassportReader.modulemap */,
+				EAB748106849D00893391B5D9A674111 /* NFCPassportReader-dummy.m */,
+				14A380F6207CDBC92066BE3FF78F96A2 /* NFCPassportReader-Info.plist */,
+				26A1227C97F0359F33AC64D70DE5C5A0 /* NFCPassportReader-prefix.pch */,
+				13546E714FFF34101753CCE8CB5E72C1 /* NFCPassportReader-umbrella.h */,
+				BDE6FDC1F43FA580DB24DDAC23E9ED6C /* NFCPassportReader.debug.xcconfig */,
+				E119971AE8EB46E75CD99A5A2D83E7CD /* NFCPassportReader.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NFCPassportReader";
+			sourceTree = "<group>";
+		};
+		AB909F91E05DAE59F6F6E197999CE65C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F1FF54CDFD742F1F13571C2C18570AE /* QKMRZParser.framework */,
+				C10D0F5BE6ECB7D309F10B59218EB06A /* SwiftyTesseract.framework */,
+				FB7CEA4E1A0794B9607645B859AEE0C2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFE37A8C420EFBCCBFCDE8F1D4B28D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3F9B4B215F0F395DD04644095BBED1A /* OpenSSL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B95A702F12DAA0C8B17CC0A2A58FB245 /* QKMRZScanner */ = {
+			isa = PBXGroup;
+			children = (
+				9B5DA32B909E7318B7B1AD31DC83F679 /* AVCaptureVideoOrientation.swift */,
+				91E9A6DA4954F01F5E25CFD0F32C4BF5 /* CIContext.swift */,
+				8471E78514742D879CF22621752BE36D /* CIImage.swift */,
+				6E6741445E9AF169280F859D31EE1948 /* CVImageBuffer.swift */,
+				9FE7EEB4B4621AA201D065A88CD8A1FE /* LuminanceThresholdFilter.swift */,
+				F8DC89C28EF8B628EB407AA28DB1B580 /* QKCutoutView.swift */,
+				4DAE902EB2D75C9339161B83290C32AD /* QKMRZScannerView.swift */,
+				420F67B2B205C36F9A619E6926CC07AB /* QKMRZScanResult.swift */,
+				E933445613C66E2413EBD7C5A9AC25FD /* Resources */,
+				E5F23C70B913CA224FD1230C5BFB4DBA /* Support Files */,
+			);
+			name = QKMRZScanner;
+			path = QKMRZScanner;
+			sourceTree = "<group>";
+		};
+		C6B20AAFD2F68194AA0A6A144762EFD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				565D865C13252BA16D26D26E7A07BC09 /* libjpeg.a */,
+				0BD3484353A4C92ED6167A2BF0D36F62 /* liblept.a */,
+				F6269F83BFAB56A9D2C1BDB20E4AA8CC /* libpng.a */,
+				FB426EB8AA0185800FBF9D1E753C7E21 /* libtesseract.a */,
+				11ECAF1EC9FAAEC89A2F7C1B5F7BF5FF /* libtiff.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C76E6DE721CCCBBAA6963872D90395F6 /* NFCPassportReader */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D6614C6D4D147EABE1CDFB0E6FE50 /* 3DES_DESEncryption.swift */,
+				042F5FC21BB6E19CB79B1B041722B2D3 /* BACHandler.swift */,
+				1799A95024487444FC6739FAA1DB70A5 /* DataGroupParser.swift */,
+				4B70CCAEAD42F6C864479F3487E7621F /* Logging.swift */,
+				C9D2A1FB991757E6D93CF046C4ACA57C /* NFCPassportModel.swift */,
+				F7512D31A28E96C53186C4D81CAF9F5E /* OpenSSLUtils.swift */,
+				2A86215344DA9836D59394705AE43A3B /* PassiveAuthentication.swift */,
+				806C5632D92948BE62611ACBAF728A6E /* PassportReader.swift */,
+				E7C08FAE76FFA568EA63BC8C64B2F943 /* SecureMessaging.swift */,
+				DCC3D25075669678CF9781449E668A4D /* TagReader.swift */,
+				F68B380B7AD7FABB7F745BF71B434092 /* Utils.swift */,
+				D450A4FE25050D24EA4D1784BD91EE8D /* X509Wrapper.swift */,
+				A64444F0724D76D6EB3DDC68E4D4F47B /* Support Files */,
+			);
+			name = NFCPassportReader;
+			path = NFCPassportReader;
+			sourceTree = "<group>";
+		};
+		CB3E0D063D04F4DB37259AF04DB2AE6B /* Pods-PassportScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45904059262F2412182122C2105831F /* Pods-PassportScannerTests.modulemap */,
+				9E96B9952B197038DF7DC09D696C6B48 /* Pods-PassportScannerTests-acknowledgements.markdown */,
+				3109D00888CE25BABEE0E09F222A6FC8 /* Pods-PassportScannerTests-acknowledgements.plist */,
+				035BE3AFEF8829E977F78EF2E4AE0696 /* Pods-PassportScannerTests-dummy.m */,
+				D492ED29B095925DE0C2BB23E9425D5E /* Pods-PassportScannerTests-Info.plist */,
+				8F62C64C2769588768EF2E53044AD098 /* Pods-PassportScannerTests-umbrella.h */,
+				EEE6A78239AEBAB3816F7BC93F4FD7EA /* Pods-PassportScannerTests.debug.xcconfig */,
+				3BD8611B72DF7B05C0DE8C409B776498 /* Pods-PassportScannerTests.release.xcconfig */,
+			);
+			name = "Pods-PassportScannerTests";
+			path = "Target Support Files/Pods-PassportScannerTests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				5A4ED9FF7A7C01CED5149826250A51F0 /* Products */,
-				DE4D26E05E3695935B28DA79B4AB90C0 /* Targets Support Files */,
+				AB909F91E05DAE59F6F6E197999CE65C /* Frameworks */,
+				4D99F0EE30E8887C4DDC66034177589E /* Pods */,
+				3C90E77FC66BB5E8123D4628096E218D /* Products */,
+				5C356A6B6721A307741E6375841E4131 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DD1B38A5CBFE1A8BDE14F5AAC9424196 /* QKMRZParser */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				A2699570ED9C01B3065665094C111A93 /* MRZField.swift */,
+				4EAEA8E18E8647F1272A55877F38D914 /* MRZFieldFormatter.swift */,
+				F31F1822B938EC36AB8202F20D133261 /* QKMRZParser.swift */,
+				037D4CBB9EEE8CD6F77F1F4708D03C15 /* QKMRZResult.swift */,
+				85AD1FAEE5C9705C6420A5AA8EAAFD61 /* String-Ext.swift */,
+				C7998E6B90E86746881B723F8DDA6AA3 /* td1.swift */,
+				9DC36E29722A2B68E3986EB1C114CC35 /* td2.swift */,
+				53B1CAFA9A6E20EA6EDA46C588DDBE95 /* td3.swift */,
+				4E413CE7D225A9268292C7E5618CCD27 /* Support Files */,
 			);
-			name = Frameworks;
+			name = QKMRZParser;
+			path = QKMRZParser;
 			sourceTree = "<group>";
 		};
-		DE4D26E05E3695935B28DA79B4AB90C0 /* Targets Support Files */ = {
+		DDDD787176611162D878AE56541D6DE4 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				B8EE8C3FC7ADAE935866B3B767366C77 /* Pods-PassportScanner */,
-				57E664E5B2690E38AC6A2A97C7409614 /* Pods-PassportScannerTests */,
+				AFE37A8C420EFBCCBFCDE8F1D4B28D27 /* Frameworks */,
 			);
-			name = "Targets Support Files";
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		E2B678C277EC74DF1FEAC0255AC7D8DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7C835616E404C0435A8AC06582CB53B /* SwiftyTesseract.modulemap */,
+				AF6DC1875DCB18BB61E1BD8B605763D6 /* SwiftyTesseract-dummy.m */,
+				893BF6CF190DC846B7859120882C956D /* SwiftyTesseract-Info.plist */,
+				E670601CFA2F34C4BDB1A9420EA94B1A /* SwiftyTesseract-prefix.pch */,
+				483B2598A55C44F66052DEA71A1CA934 /* SwiftyTesseract-umbrella.h */,
+				626CB0F33FE22915B642C8D90ADA41F8 /* SwiftyTesseract.debug.xcconfig */,
+				699351EE6241FF69738194B733C6EE68 /* SwiftyTesseract.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTesseract";
+			sourceTree = "<group>";
+		};
+		E5F23C70B913CA224FD1230C5BFB4DBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1E1F334C58898C8FDF0B511E324BBBC /* QKMRZScanner.modulemap */,
+				1E86204F04C340AAEC4FE8AB04C404E6 /* QKMRZScanner-dummy.m */,
+				BDE0AAF88168ED6A37A36D6F4CDFBFC9 /* QKMRZScanner-Info.plist */,
+				67CD0965836C6BBD1389246778241ECC /* QKMRZScanner-prefix.pch */,
+				DCBBC2E8A5A0CBC88C3B523DC4D8493E /* QKMRZScanner-umbrella.h */,
+				A5BFB4D89F3B3A0C354C49ACC55CDD27 /* QKMRZScanner.debug.xcconfig */,
+				5635BCBB64DA8DCB73E66AFFA17A07DD /* QKMRZScanner.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QKMRZScanner";
+			sourceTree = "<group>";
+		};
+		E933445613C66E2413EBD7C5A9AC25FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF22DE7EE9CD62599F1F9F6942911B2E /* tessdata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FB7CEA4E1A0794B9607645B859AEE0C2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2E4323CE86F4B93DE868F399DCC6286 /* AudioToolbox.framework */,
+				96B16DF3356B423A223B829E2BDA15E8 /* AVFoundation.framework */,
+				7A86B6BF03F3D7CF0FDBBBBC841480B6 /* CoreImage.framework */,
+				123C3F1CB40702CE60C5227F8A7E292A /* Foundation.framework */,
+				63A3B8CDA26261C39F91DFB59435953D /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4F75CE13AAC457878F302256AC059EC2 /* Headers */ = {
+		52909416402676CA727CA194E1A2D644 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2AC11F65FE8D5B6505B40C433CC4F2C /* Pods-PassportScanner-umbrella.h in Headers */,
+				4CC6496E5E67C6D4CC039B7B9BB17B42 /* Pods-PassportScanner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,25 +822,199 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		96BAA4FFE4E7706E709672EDB50EAB8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50A63A290F9B2ED5A59EB4A0E7B5D6C /* allheaders.h in Headers */,
+				496AA66FE07FC67A6D96F69FC03A2DDF /* alltypes.h in Headers */,
+				7394D5051DF811CE225C914163F37D32 /* apitypes.h in Headers */,
+				54F5EC961656F71D34722E870561FD7A /* array.h in Headers */,
+				E61898384148C676386AE6756E10D0B8 /* arrayaccess.h in Headers */,
+				D5D25C850F569D6DF327E48067C325D9 /* baseapi.h in Headers */,
+				CE93317C8FC9FDCE566A22AA22870827 /* bbuffer.h in Headers */,
+				8A8F037120BF8BEA3F68B516EAC35D77 /* bilateral.h in Headers */,
+				90B369AF89B14882A1BD440762A35763 /* bmf.h in Headers */,
+				D49F86B027ED4918F17C104BE4882D17 /* bmfdata.h in Headers */,
+				E3DA011E91FE5AE69958D869505B6ABF /* bmp.h in Headers */,
+				D527660B9593DAE74A0EA387656032C4 /* capi.h in Headers */,
+				412A6E9D711FFF78E3DEF1D7DC6BACB4 /* ccbord.h in Headers */,
+				ED49D2BE86F6112805964EE4AFEDF578 /* dewarp.h in Headers */,
+				D005B5EF7FAE4B1DE4C27E1ACBF95E68 /* endianness.h in Headers */,
+				7EC1796AF89B41BE9928B57700E91E58 /* environ.h in Headers */,
+				6D406995CD401EA022F17969CDCA8A5B /* genericvector.h in Headers */,
+				34CFBA57BCBA7706D3AD4839385D3B7B /* gplot.h in Headers */,
+				85FB87FC5E463BE6941BA20E55B9E5E7 /* heap.h in Headers */,
+				267B0F654F75A6259D9BAB11F02BA277 /* helpers.h in Headers */,
+				5BD811B2FA563734289B10DF983366DE /* imageio.h in Headers */,
+				567527563CB684ACB9DCCC61B95E371A /* jbclass.h in Headers */,
+				9C72BFB2764CF0070CFC6E8DB5DF80CD /* jconfig.h in Headers */,
+				54AD1EA5CF53455EE91E2B21E0781FDA /* jerror.h in Headers */,
+				5FB378E313BAD577B56A0FDA0B58E613 /* jmorecfg.h in Headers */,
+				E70A4C22DD1D84AFE5A4E4DC306C277D /* jpeglib.h in Headers */,
+				7471B0F9479816D081B1E7C1A4CBB99E /* leptwin.h in Headers */,
+				94F9D216CC3C38EDB65E0F74D109C71C /* list.h in Headers */,
+				CB9DCFC142DD059D208CD1F76FFB85BD /* ltrresultiterator.h in Headers */,
+				44543DE51BE3CEC68A728D24CD718315 /* morph.h in Headers */,
+				FB08EA68E8B63B0BFB8B6E8AB9D295C8 /* ocrclass.h in Headers */,
+				BEBE68E17AE2891CFB33207098A2427C /* osdetect.h in Headers */,
+				6351B8CF244F2ADDAED2D50A10EC629E /* pageiterator.h in Headers */,
+				C5F8973373C51E940FED903969AF0E71 /* pix.h in Headers */,
+				F3A06B5D72624BADCE593C1E8252D5A9 /* platform.h in Headers */,
+				F83B2DCF33F22126F906EB1DA732E28B /* png.h in Headers */,
+				4C1BFB63BE3900E8FB9792B10954EF65 /* pngconf.h in Headers */,
+				CF9B15A6A7D4487470D81C84F8B5CB04 /* pnglibconf.h in Headers */,
+				DA16131BB9404B195D4DEC2CA1960519 /* ptra.h in Headers */,
+				8D515AA515580DEC6D06D34476215EB4 /* publictypes.h in Headers */,
+				7B7ADE63775F50CFEC130796FA5C70C6 /* queue.h in Headers */,
+				9AB8C75D3AA68B04783E3114271FDA9E /* rbtree.h in Headers */,
+				A7E4EF64ACD9C26CB47E6C0DFF9A1AEA /* readbarcode.h in Headers */,
+				2C121D318E8768FE5FA1AEBEB419635E /* recog.h in Headers */,
+				1A91310B13EEACDD67246A65066C6FD6 /* regutils.h in Headers */,
+				EE7A4E80942FFC8B34D4C59CF6C7F6C1 /* renderer.h in Headers */,
+				99F8AF048315421BA399D793FA65FC20 /* resultiterator.h in Headers */,
+				7D4C6FCA0C41BA7E4D70A405908DDF2B /* serialis.h in Headers */,
+				C8BA4C0017C5879A9CBEC0AE547D580E /* stack.h in Headers */,
+				8CC9F46A30CA23F9DAEE97360D130686 /* stringcode.h in Headers */,
+				88B23321B5AA0E32D954F8CACC4B17E7 /* strngs.h in Headers */,
+				BF47DE7A6ED837F94CAAB687197E7A5E /* sudoku.h in Headers */,
+				F3F6003983E440B476A2CE4E8C23D077 /* SwiftyTesseract-umbrella.h in Headers */,
+				CA8702DB81CE44A96F816023C64F00EF /* SwiftyTesseract.h in Headers */,
+				40438AF25D35A718E1E33237082BDAEB /* tess_version.h in Headers */,
+				CBF3C40F679284024FF6A728104AA047 /* tesscallback.h in Headers */,
+				8F079664285270F840985739BD1F0C01 /* thresholder.h in Headers */,
+				E15F2B2D667A01A168299762D9E69116 /* tiff.h in Headers */,
+				A2DE8C15F14A8607F6F04E34784F06C7 /* tiffconf.h in Headers */,
+				AD3BE9D29BBD249C2AB319AA0A136485 /* tiffio.h in Headers */,
+				F4FA723C90689A49D6C520A7CC2A0BEC /* tiffvers.h in Headers */,
+				9E2CB061E6469994A06C1A852C5148FB /* unichar.h in Headers */,
+				3FD5B81D676A954D418CA9B3AACDB0ED /* watershed.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0E3872235A7C21AD585387FC5869A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A7DC15FDB29266F9F171E4D53A3B40 /* NFCPassportReader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B449283164973067EA20A697C365A4F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43BCF317A645F45595EDF5D65AA01DB /* QKMRZScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BBC1BFD82E30007213F0542CAD2BFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B63ABB31D31B203ECF577A4B613F65 /* QKMRZParser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4B713668412E337F84517C9CFD3D758C /* Pods-PassportScanner */ = {
+		44846E5E2172F853B4F70588F8115052 /* QKMRZParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A783D0BA9C4B70E5150C5C59F0DCDE7 /* Build configuration list for PBXNativeTarget "Pods-PassportScanner" */;
+			buildConfigurationList = 8557B258726D163B08B93D2EE5D73CC1 /* Build configuration list for PBXNativeTarget "QKMRZParser" */;
 			buildPhases = (
-				4F75CE13AAC457878F302256AC059EC2 /* Headers */,
-				519768999DE5A3841461070613DA652D /* Sources */,
-				96943CE9E5512B34F064C79EEC33FB37 /* Frameworks */,
-				5F68F833CCF13D75ED5EA9407F95EB5D /* Resources */,
+				F2BBC1BFD82E30007213F0542CAD2BFE /* Headers */,
+				34E1949EA79F9CCEDCB22F76CF5DB6B8 /* Sources */,
+				723B530F814076C10689DC7AE567A4B6 /* Frameworks */,
+				CA0B93B0470F0F55935AB07BDC1495DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = QKMRZParser;
+			productName = QKMRZParser;
+			productReference = E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B713668412E337F84517C9CFD3D758C /* Pods-PassportScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83159E82CF2480A1DE8747C88FA39D8C /* Build configuration list for PBXNativeTarget "Pods-PassportScanner" */;
+			buildPhases = (
+				52909416402676CA727CA194E1A2D644 /* Headers */,
+				0D57F2CFE02162670AF97EA4E9D9E052 /* Sources */,
+				743EE6C1DD5D2599B1B6209BD341043B /* Frameworks */,
+				C21958E0A4484CB356B8164DFD6F8CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF6791C1FDA4F23A5FB62BBAF5525887 /* PBXTargetDependency */,
+				DD4E5691DB14C5A961466F509B0EFBFF /* PBXTargetDependency */,
+				5DF0BCEE30128F45320C71C307C17F94 /* PBXTargetDependency */,
+				239BDD76918F109234AB87C2D9D25A50 /* PBXTargetDependency */,
+				F634054ADAEA71BE1A91AC2380574F07 /* PBXTargetDependency */,
+			);
 			name = "Pods-PassportScanner";
 			productName = "Pods-PassportScanner";
 			productReference = 732CB9130B6BAB1332B507F9E8572368 /* Pods_PassportScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B518B5748520A5400064566B4E668147 /* Build configuration list for PBXNativeTarget "SwiftyTesseract" */;
+			buildPhases = (
+				96BAA4FFE4E7706E709672EDB50EAB8D /* Headers */,
+				C1F4C40FB14FB1D7E02AE60E53536DDC /* Sources */,
+				1386726C5EADEBCF81B9C6519085A636 /* Frameworks */,
+				E5921F1689877715C6779F750E4309B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTesseract;
+			productName = SwiftyTesseract;
+			productReference = F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A27FBFB272D0D46BF9B937D5AEEA741 /* QKMRZScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB218358079278E7BB4C5D2FC19C1803 /* Build configuration list for PBXNativeTarget "QKMRZScanner" */;
+			buildPhases = (
+				B449283164973067EA20A697C365A4F3 /* Headers */,
+				BF0882D8FD6C951874A7DE21B6EC09DD /* Sources */,
+				D80ACBAB36510492A1A49B7A9CF7F669 /* Frameworks */,
+				2262440534941C86D6F22BC20A250961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D245E9C370E3DA6CC710EAAC22BF4B /* PBXTargetDependency */,
+				309D96FF6EBC139E86CCD048AD70D0CE /* PBXTargetDependency */,
+			);
+			name = QKMRZScanner;
+			productName = QKMRZScanner;
+			productReference = A37FFDE7EB2CFD3EA72457334C8A0A25 /* QKMRZScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7BF2183371AE1848A42AD5EEF38B8DB /* NFCPassportReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62117FABA0BD9BD548040B6F42666363 /* Build configuration list for PBXNativeTarget "NFCPassportReader" */;
+			buildPhases = (
+				9F0E3872235A7C21AD585387FC5869A0 /* Headers */,
+				C9FC849C2FE300DBFF1A259F87E9E333 /* Sources */,
+				2E59E1EED2A75086FFD390AFBD4C915E /* Frameworks */,
+				E077F2B64A5B0FA457FD5A39170AAA3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3B231538A68A4148C3C94081547546 /* PBXTargetDependency */,
+			);
+			name = NFCPassportReader;
+			productName = NFCPassportReader;
+			productReference = E7C588D502143788AA6DD770A2DF3EF4 /* NFCPassportReader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D5D64E208D6DBE9F87760C8E6CEAD8E8 /* Pods-PassportScannerTests */ = {
@@ -213,7 +1046,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -221,17 +1054,30 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5A4ED9FF7A7C01CED5149826250A51F0 /* Products */;
+			productRefGroup = 3C90E77FC66BB5E8123D4628096E218D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A7BF2183371AE1848A42AD5EEF38B8DB /* NFCPassportReader */,
+				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
 				4B713668412E337F84517C9CFD3D758C /* Pods-PassportScanner */,
 				D5D64E208D6DBE9F87760C8E6CEAD8E8 /* Pods-PassportScannerTests */,
+				44846E5E2172F853B4F70588F8115052 /* QKMRZParser */,
+				6A27FBFB272D0D46BF9B937D5AEEA741 /* QKMRZScanner */,
+				5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2262440534941C86D6F22BC20A250961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EEB25498567040B1CFD096B25777CC /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D230D4971895492CE52190C6FA854EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,7 +1085,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F68F833CCF13D75ED5EA9407F95EB5D /* Resources */ = {
+		C21958E0A4484CB356B8164DFD6F8CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0B93B0470F0F55935AB07BDC1495DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E077F2B64A5B0FA457FD5A39170AAA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5921F1689877715C6779F750E4309B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,11 +1116,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		519768999DE5A3841461070613DA652D /* Sources */ = {
+		0D57F2CFE02162670AF97EA4E9D9E052 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FD2EA4F5433D1900889ECD5BA16B78 /* Pods-PassportScanner-dummy.m in Sources */,
+				94E139BF6BB770AF974D50C83DEF2AAA /* Pods-PassportScanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E1949EA79F9CCEDCB22F76CF5DB6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50798429B75117D4FEDA66D60D5E5F1 /* MRZField.swift in Sources */,
+				41BA6E81F80EEF15FAD6BF55DADBFFE1 /* MRZFieldFormatter.swift in Sources */,
+				3F0AC8DA2FF52961DFBA9B995A094AB8 /* QKMRZParser-dummy.m in Sources */,
+				E6C28E5CB16A16EC986B790C1A1A5B64 /* QKMRZParser.swift in Sources */,
+				C3A978B4634C8A40CAB5834D45C6D943 /* QKMRZResult.swift in Sources */,
+				ADB57E490D09267ED50E152AB2215B7E /* String-Ext.swift in Sources */,
+				6B47DC7B0BB820FB64AC372007D77BA9 /* td1.swift in Sources */,
+				F1645F6BD6B1A5647F7F4F40802FAA05 /* td2.swift in Sources */,
+				4933C8DCD0A1958CAD07333EF82C0011 /* td3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,21 +1148,125 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF0882D8FD6C951874A7DE21B6EC09DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFF4DDB23F32E40693C55DC92AEAFB0 /* AVCaptureVideoOrientation.swift in Sources */,
+				7EA9F1229FAA5EAFF4A584C647463867 /* CIContext.swift in Sources */,
+				684C35574C1B13807BF4FB91A8A1ACA0 /* CIImage.swift in Sources */,
+				B043438BEF313679B025D0612D1A33BD /* CVImageBuffer.swift in Sources */,
+				43124644635E6819081B0AAE212A1197 /* LuminanceThresholdFilter.swift in Sources */,
+				2BB9456A79B3F03A0C7311C44B0DA92A /* QKCutoutView.swift in Sources */,
+				ED275E5099E6A15E13A9C603ED5DBEB4 /* QKMRZScanner-dummy.m in Sources */,
+				74D7EA36F6672CC40B154B0F6AA6607A /* QKMRZScannerView.swift in Sources */,
+				64C2E8E64B6F681269C9A45CD15F935E /* QKMRZScanResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F4C40FB14FB1D7E02AE60E53536DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2028FF87FB74252D6B5CA8235999011 /* BoundingBox.swift in Sources */,
+				262DEAFF18D8E595369746FDDA78514B /* Bundle+pathToTrainedData.swift in Sources */,
+				2EACC21FEEB76B0A50828CA9B5643F5F /* EngineMode.swift in Sources */,
+				AA954CACCA4A7DF94A60E79C60E184C3 /* LanguageModelDataSource.swift in Sources */,
+				A9A3207EBF8BFC614DB8BB4F1FA4BE3F /* LanguageStringConverter.swift in Sources */,
+				C3E2F9633EF68CCAA96323FBE2726A54 /* RecognitionLanguage.swift in Sources */,
+				233819A20A52CC48D7343191DBA2AFA6 /* RecognizedBlock.swift in Sources */,
+				9BF40F178549FEC16CCAADFC8688C76D /* ResultIteratorLevel.swift in Sources */,
+				3BB81177415EA754F323E6D56BE58A6A /* String+Extensions.swift in Sources */,
+				4A7E44F82A1932DB314212E380F2BBC8 /* SwiftyTesseract-dummy.m in Sources */,
+				33A809D36EB685AD20E1927824A579E0 /* SwiftyTesseract.swift in Sources */,
+				06900F42631B37AC9AF928B312B54BF1 /* SwiftyTesseractError.swift in Sources */,
+				FAFDFCF1E5C78E527B5B95C1F07F3CA5 /* TesseractVariableName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FC849C2FE300DBFF1A259F87E9E333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF99DFCDDF90F0EDF16EE3E10BA091BD /* 3DES_DESEncryption.swift in Sources */,
+				2B117D72CC7F44FBD5F27B6531CA064B /* BACHandler.swift in Sources */,
+				6EB913A052A36FAA1A458C38BB344F89 /* DataGroupParser.swift in Sources */,
+				1FC746E76023E9A53742E57DA3076F33 /* Logging.swift in Sources */,
+				FBE0697EB413B266F1D6B5FC3B0C919C /* NFCPassportModel.swift in Sources */,
+				BF1D76E14C7537C0AA8E3B9A3F3EFD89 /* NFCPassportReader-dummy.m in Sources */,
+				1E8DD515F578AA1FFBD5F90F311393B2 /* OpenSSLUtils.swift in Sources */,
+				C1C180D8726FB5707CCE0DBCAB8E3232 /* PassiveAuthentication.swift in Sources */,
+				9BBA593B686BCEE89589D300665D52FB /* PassportReader.swift in Sources */,
+				ED9B5821E92325368290C4AF3BDD63C2 /* SecureMessaging.swift in Sources */,
+				E035205C7E9A4CDAE123257B24680A62 /* TagReader.swift in Sources */,
+				17ABDA7511018F565C72FA799A9B0096 /* Utils.swift in Sources */,
+				2D43A0D277CC4E044F5ABBE71C69434D /* X509Wrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		239BDD76918F109234AB87C2D9D25A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QKMRZScanner;
+			target = 6A27FBFB272D0D46BF9B937D5AEEA741 /* QKMRZScanner */;
+			targetProxy = C56CE13D6528789CAB47E95D46BD77E9 /* PBXContainerItemProxy */;
+		};
+		309D96FF6EBC139E86CCD048AD70D0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTesseract;
+			target = 5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */;
+			targetProxy = 18EE05E526A0204C805855B8917A4D8F /* PBXContainerItemProxy */;
+		};
+		43D245E9C370E3DA6CC710EAAC22BF4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QKMRZParser;
+			target = 44846E5E2172F853B4F70588F8115052 /* QKMRZParser */;
+			targetProxy = E0EDBC89C6108C84619739D45676C00A /* PBXContainerItemProxy */;
+		};
+		4C3B231538A68A4148C3C94081547546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 57F7701C23EC7BAFB9EC7F0378D7D304 /* PBXContainerItemProxy */;
+		};
+		5DF0BCEE30128F45320C71C307C17F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QKMRZParser;
+			target = 44846E5E2172F853B4F70588F8115052 /* QKMRZParser */;
+			targetProxy = 1A23286D82220316D8D0A090A6655B20 /* PBXContainerItemProxy */;
+		};
+		BF6791C1FDA4F23A5FB62BBAF5525887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFCPassportReader;
+			target = A7BF2183371AE1848A42AD5EEF38B8DB /* NFCPassportReader */;
+			targetProxy = EEC2646B3057300D851528F29D6AFED0 /* PBXContainerItemProxy */;
+		};
 		D1153371EC6655DC1C41B1137AB9CD90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PassportScanner";
 			target = 4B713668412E337F84517C9CFD3D758C /* Pods-PassportScanner */;
 			targetProxy = 0C2E86B0DC92DAA92DEE3EB3F7D5EEAE /* PBXContainerItemProxy */;
 		};
+		DD4E5691DB14C5A961466F509B0EFBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 74DE0155B383B165630F80A50F2F9579 /* PBXContainerItemProxy */;
+		};
+		F634054ADAEA71BE1A91AC2380574F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTesseract;
+			target = 5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */;
+			targetProxy = ABE6C89CB6EAAB2BD1019B1F5A9FD1A1 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		04702297C5945F297BF91FB3DBBC836B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E60FF85F8B4E9D5C85CCD9CB4798695E /* Pods-PassportScannerTests.debug.xcconfig */;
+			baseConfigurationReference = EEE6A78239AEBAB3816F7BC93F4FD7EA /* Pods-PassportScannerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -375,11 +1362,10 @@
 			};
 			name = Release;
 		};
-		1F7E19F965A0D917A8A903B85F893D1F /* Release */ = {
+		16F6BA9025B1EC8A567DE75FF7CC23AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A071CC174DE8D4D8CFD97E6FAB9E64D /* Pods-PassportScanner.release.xcconfig */;
+			baseConfigurationReference = 626CB0F33FE22915B642C8D90ADA41F8 /* SwiftyTesseract.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -390,33 +1376,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PassportScanner/Pods-PassportScanner-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PassportScanner/Pods-PassportScanner.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		39DF3448EC72BD734DEAD40EF0279F0D /* Debug */ = {
+		2435A45BD4FB0F4883C406A9540D1560 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B8B017D1CEA9B7D4CCE44C97A5225F1 /* Pods-PassportScanner.debug.xcconfig */;
+			baseConfigurationReference = 6595A05E5954994CD28813622FE49841 /* Pods-PassportScanner.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -452,9 +1435,187 @@
 			};
 			name = Debug;
 		};
+		37DB73C82751F874CE240DCF9A9FFBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029F3EA6C8EBBA7BB8A277DBDA26BF84 /* OpenSSL-Universal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85031779C2AEEA16F93D585E1FF676BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145A0BD04D161A1350AB6D233A3CFB9E /* QKMRZParser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZParser/QKMRZParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZParser/QKMRZParser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QKMRZParser/QKMRZParser.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZParser;
+				PRODUCT_NAME = QKMRZParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		859B78F978BA45C0FCF85B806074F0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5635BCBB64DA8DCB73E66AFFA17A07DD /* QKMRZScanner.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZScanner/QKMRZScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZScanner/QKMRZScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QKMRZScanner/QKMRZScanner.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZScanner;
+				PRODUCT_NAME = QKMRZScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		867704670673B75C9213390D7597359C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699351EE6241FF69738194B733C6EE68 /* SwiftyTesseract.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB3B9BC8F35EFB44052A0B30EF561E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651BCC8C55B9A96F36717D71C5B29EB3 /* OpenSSL-Universal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1A11E24E5F770F96CA0D219C5AED2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE6FDC1F43FA580DB24DDAC23E9ED6C /* NFCPassportReader.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCPassportReader/NFCPassportReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCPassportReader/NFCPassportReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NFCPassportReader/NFCPassportReader.modulemap";
+				PRODUCT_MODULE_NAME = NFCPassportReader;
+				PRODUCT_NAME = NFCPassportReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C58E71AB28B747713B14E78105678C44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D96A5A67D8D9C6FF364F194BD05B4843 /* Pods-PassportScannerTests.release.xcconfig */;
+			baseConfigurationReference = 3BD8611B72DF7B05C0DE8C409B776498 /* Pods-PassportScannerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -490,6 +1651,81 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D99D96A501273D2EC71AFBA0B2291D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB152BE82DDEDBF4A2E3EFBC332B660 /* Pods-PassportScanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassportScanner/Pods-PassportScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassportScanner/Pods-PassportScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA1EFD361E998CA660C1B10C6A49E429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BFB4D89F3B3A0C354C49ACC55CDD27 /* QKMRZScanner.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZScanner/QKMRZScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZScanner/QKMRZScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QKMRZScanner/QKMRZScanner.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZScanner;
+				PRODUCT_NAME = QKMRZScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -555,18 +1791,81 @@
 			};
 			name = Debug;
 		};
+		F8CA65E9F9093E56A10EF3210C2E13C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CDA2FBB0A61C1E46194EEEE97D2CA0 /* QKMRZParser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZParser/QKMRZParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZParser/QKMRZParser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QKMRZParser/QKMRZParser.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZParser;
+				PRODUCT_NAME = QKMRZParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA8CDE7385EC8B323EA04BD9B1E76F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E119971AE8EB46E75CD99A5A2D83E7CD /* NFCPassportReader.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCPassportReader/NFCPassportReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCPassportReader/NFCPassportReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NFCPassportReader/NFCPassportReader.modulemap";
+				PRODUCT_MODULE_NAME = NFCPassportReader;
+				PRODUCT_NAME = NFCPassportReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A783D0BA9C4B70E5150C5C59F0DCDE7 /* Build configuration list for PBXNativeTarget "Pods-PassportScanner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39DF3448EC72BD734DEAD40EF0279F0D /* Debug */,
-				1F7E19F965A0D917A8A903B85F893D1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2B797BC4DD219EB3705633E141C476EA /* Build configuration list for PBXNativeTarget "Pods-PassportScannerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -581,6 +1880,60 @@
 			buildConfigurations = (
 				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
 				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62117FABA0BD9BD548040B6F42666363 /* Build configuration list for PBXNativeTarget "NFCPassportReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A11E24E5F770F96CA0D219C5AED2BB /* Debug */,
+				FA8CDE7385EC8B323EA04BD9B1E76F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83159E82CF2480A1DE8747C88FA39D8C /* Build configuration list for PBXNativeTarget "Pods-PassportScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2435A45BD4FB0F4883C406A9540D1560 /* Debug */,
+				D99D96A501273D2EC71AFBA0B2291D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8557B258726D163B08B93D2EE5D73CC1 /* Build configuration list for PBXNativeTarget "QKMRZParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CA65E9F9093E56A10EF3210C2E13C1 /* Debug */,
+				85031779C2AEEA16F93D585E1FF676BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB218358079278E7BB4C5D2FC19C1803 /* Build configuration list for PBXNativeTarget "QKMRZScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1EFD361E998CA660C1B10C6A49E429 /* Debug */,
+				859B78F978BA45C0FCF85B806074F0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B518B5748520A5400064566B4E668147 /* Build configuration list for PBXNativeTarget "SwiftyTesseract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F6BA9025B1EC8A567DE75FF7CC23AB /* Debug */,
+				867704670673B75C9213390D7597359C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3BA84DB7DD10596FA8E43A9BBB8261 /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DB73C82751F874CE240DCF9A9FFBF6 /* Debug */,
+				AB3B9BC8F35EFB44052A0B30EF561E7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

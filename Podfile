@@ -6,7 +6,8 @@ target 'PassportScanner' do
   use_frameworks!
   inhibit_all_warnings!
   
- 
+  pod 'QKMRZScanner'
+  pod 'NFCPassportReader', git:'https://github.com/AndyQ/NFCPassportReader.git'  
 
   target 'PassportScannerTests' do
     inherit! :search_paths
