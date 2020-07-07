@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3948BA9A13BA8679B89AE0E8826C5730 /* Pods-PassportScannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA209F5FB97F9B293632B065C0FD91F /* Pods-PassportScannerTests-dummy.m */; };
+		42FD2EA4F5433D1900889ECD5BA16B78 /* Pods-PassportScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F552CE0DB96FDEC6858E462BCFEF130B /* Pods-PassportScanner-dummy.m */; };
+		D12F60EEC43F0FB7D39346287CE2157D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D2AC11F65FE8D5B6505B40C433CC4F2C /* Pods-PassportScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2885973FE81D24222031C85C700C98EC /* Pods-PassportScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30F4803B221BA4747663D93BA096C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F6CE368764978AD8857AD254C956A05F /* Pods-PassportScannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F93076E37E80E7A68F087BD67DC3F50 /* Pods-PassportScannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C2E86B0DC92DAA92DEE3EB3F7D5EEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B713668412E337F84517C9CFD3D758C;
+			remoteInfo = "Pods-PassportScanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFF2B0CF5BA16CB894192B171B79A6B /* Pods-PassportScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassportScanner.modulemap"; sourceTree = "<group>"; };
+		1479BA90ECB1EADCE5DB0622A70BABED /* Pods-PassportScannerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScannerTests-Info.plist"; sourceTree = "<group>"; };
+		17B6E61C530E52469F6EC73A5C30B9A3 /* Pods-PassportScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScanner-Info.plist"; sourceTree = "<group>"; };
+		1A071CC174DE8D4D8CFD97E6FAB9E64D /* Pods-PassportScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScanner.release.xcconfig"; sourceTree = "<group>"; };
+		1A9E31299EC41D1F8655430B35FAE685 /* Pods-PassportScannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassportScannerTests.modulemap"; sourceTree = "<group>"; };
+		1E34290CEC48094F8956A06E53F627FC /* Pods-PassportScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		2885973FE81D24222031C85C700C98EC /* Pods-PassportScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassportScanner-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34BEDA1197872AAB2DAD8164EEBB466F /* Pods-PassportScannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassportScannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B8B017D1CEA9B7D4CCE44C97A5225F1 /* Pods-PassportScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		732CB9130B6BAB1332B507F9E8572368 /* Pods_PassportScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PassportScanner.framework; path = "Pods-PassportScanner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82123C5A9A8709872C77E2F46B1CD467 /* Pods-PassportScannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassportScannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F93076E37E80E7A68F087BD67DC3F50 /* Pods-PassportScannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassportScannerTests-umbrella.h"; sourceTree = "<group>"; };
+		91E2CC095AAAC13CE9AACF4C5FF97F5F /* Pods-PassportScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassportScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BA209F5FB97F9B293632B065C0FD91F /* Pods-PassportScannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassportScannerTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D96A5A67D8D9C6FF364F194BD05B4843 /* Pods-PassportScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E60FF85F8B4E9D5C85CCD9CB4798695E /* Pods-PassportScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassportScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F552CE0DB96FDEC6858E462BCFEF130B /* Pods-PassportScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassportScanner-dummy.m"; sourceTree = "<group>"; };
+		F6A0CEAC7A6069A6FBA1BB38496F38B6 /* Pods_PassportScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PassportScannerTests.framework; path = "Pods-PassportScannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96943CE9E5512B34F064C79EEC33FB37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12F60EEC43F0FB7D39346287CE2157D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B207F82A2F4D3B63C12244D4C722C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30F4803B221BA4747663D93BA096C45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57E664E5B2690E38AC6A2A97C7409614 /* Pods-PassportScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A9E31299EC41D1F8655430B35FAE685 /* Pods-PassportScannerTests.modulemap */,
+				34BEDA1197872AAB2DAD8164EEBB466F /* Pods-PassportScannerTests-acknowledgements.markdown */,
+				82123C5A9A8709872C77E2F46B1CD467 /* Pods-PassportScannerTests-acknowledgements.plist */,
+				9BA209F5FB97F9B293632B065C0FD91F /* Pods-PassportScannerTests-dummy.m */,
+				1479BA90ECB1EADCE5DB0622A70BABED /* Pods-PassportScannerTests-Info.plist */,
+				8F93076E37E80E7A68F087BD67DC3F50 /* Pods-PassportScannerTests-umbrella.h */,
+				E60FF85F8B4E9D5C85CCD9CB4798695E /* Pods-PassportScannerTests.debug.xcconfig */,
+				D96A5A67D8D9C6FF364F194BD05B4843 /* Pods-PassportScannerTests.release.xcconfig */,
+			);
+			name = "Pods-PassportScannerTests";
+			path = "Target Support Files/Pods-PassportScannerTests";
+			sourceTree = "<group>";
+		};
+		5A4ED9FF7A7C01CED5149826250A51F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732CB9130B6BAB1332B507F9E8572368 /* Pods_PassportScanner.framework */,
+				F6A0CEAC7A6069A6FBA1BB38496F38B6 /* Pods_PassportScannerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8EE8C3FC7ADAE935866B3B767366C77 /* Pods-PassportScanner */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF2B0CF5BA16CB894192B171B79A6B /* Pods-PassportScanner.modulemap */,
+				91E2CC095AAAC13CE9AACF4C5FF97F5F /* Pods-PassportScanner-acknowledgements.markdown */,
+				1E34290CEC48094F8956A06E53F627FC /* Pods-PassportScanner-acknowledgements.plist */,
+				F552CE0DB96FDEC6858E462BCFEF130B /* Pods-PassportScanner-dummy.m */,
+				17B6E61C530E52469F6EC73A5C30B9A3 /* Pods-PassportScanner-Info.plist */,
+				2885973FE81D24222031C85C700C98EC /* Pods-PassportScanner-umbrella.h */,
+				5B8B017D1CEA9B7D4CCE44C97A5225F1 /* Pods-PassportScanner.debug.xcconfig */,
+				1A071CC174DE8D4D8CFD97E6FAB9E64D /* Pods-PassportScanner.release.xcconfig */,
+			);
+			name = "Pods-PassportScanner";
+			path = "Target Support Files/Pods-PassportScanner";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5A4ED9FF7A7C01CED5149826250A51F0 /* Products */,
+				DE4D26E05E3695935B28DA79B4AB90C0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE4D26E05E3695935B28DA79B4AB90C0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8EE8C3FC7ADAE935866B3B767366C77 /* Pods-PassportScanner */,
+				57E664E5B2690E38AC6A2A97C7409614 /* Pods-PassportScannerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F75CE13AAC457878F302256AC059EC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AC11F65FE8D5B6505B40C433CC4F2C /* Pods-PassportScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3BB0B117747CFB6F866122FD83D360 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CE368764978AD8857AD254C956A05F /* Pods-PassportScannerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B713668412E337F84517C9CFD3D758C /* Pods-PassportScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A783D0BA9C4B70E5150C5C59F0DCDE7 /* Build configuration list for PBXNativeTarget "Pods-PassportScanner" */;
+			buildPhases = (
+				4F75CE13AAC457878F302256AC059EC2 /* Headers */,
+				519768999DE5A3841461070613DA652D /* Sources */,
+				96943CE9E5512B34F064C79EEC33FB37 /* Frameworks */,
+				5F68F833CCF13D75ED5EA9407F95EB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PassportScanner";
+			productName = "Pods-PassportScanner";
+			productReference = 732CB9130B6BAB1332B507F9E8572368 /* Pods_PassportScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5D64E208D6DBE9F87760C8E6CEAD8E8 /* Pods-PassportScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B797BC4DD219EB3705633E141C476EA /* Build configuration list for PBXNativeTarget "Pods-PassportScannerTests" */;
+			buildPhases = (
+				5E3BB0B117747CFB6F866122FD83D360 /* Headers */,
+				7331D65A1512BC4A06155E71B59C38F2 /* Sources */,
+				E7B207F82A2F4D3B63C12244D4C722C0 /* Frameworks */,
+				2D230D4971895492CE52190C6FA854EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1153371EC6655DC1C41B1137AB9CD90 /* PBXTargetDependency */,
+			);
+			name = "Pods-PassportScannerTests";
+			productName = "Pods-PassportScannerTests";
+			productReference = F6A0CEAC7A6069A6FBA1BB38496F38B6 /* Pods_PassportScannerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5A4ED9FF7A7C01CED5149826250A51F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B713668412E337F84517C9CFD3D758C /* Pods-PassportScanner */,
+				D5D64E208D6DBE9F87760C8E6CEAD8E8 /* Pods-PassportScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D230D4971895492CE52190C6FA854EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F68F833CCF13D75ED5EA9407F95EB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		519768999DE5A3841461070613DA652D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FD2EA4F5433D1900889ECD5BA16B78 /* Pods-PassportScanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7331D65A1512BC4A06155E71B59C38F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3948BA9A13BA8679B89AE0E8826C5730 /* Pods-PassportScannerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1153371EC6655DC1C41B1137AB9CD90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PassportScanner";
+			target = 4B713668412E337F84517C9CFD3D758C /* Pods-PassportScanner */;
+			targetProxy = 0C2E86B0DC92DAA92DEE3EB3F7D5EEAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04702297C5945F297BF91FB3DBBC836B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60FF85F8B4E9D5C85CCD9CB4798695E /* Pods-PassportScannerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassportScannerTests/Pods-PassportScannerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassportScannerTests/Pods-PassportScannerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1F7E19F965A0D917A8A903B85F893D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A071CC174DE8D4D8CFD97E6FAB9E64D /* Pods-PassportScanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassportScanner/Pods-PassportScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassportScanner/Pods-PassportScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39DF3448EC72BD734DEAD40EF0279F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8B017D1CEA9B7D4CCE44C97A5225F1 /* Pods-PassportScanner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassportScanner/Pods-PassportScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassportScanner/Pods-PassportScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C58E71AB28B747713B14E78105678C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96A5A67D8D9C6FF364F194BD05B4843 /* Pods-PassportScannerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassportScannerTests/Pods-PassportScannerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassportScannerTests/Pods-PassportScannerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A783D0BA9C4B70E5150C5C59F0DCDE7 /* Build configuration list for PBXNativeTarget "Pods-PassportScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DF3448EC72BD734DEAD40EF0279F0D /* Debug */,
+				1F7E19F965A0D917A8A903B85F893D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B797BC4DD219EB3705633E141C476EA /* Build configuration list for PBXNativeTarget "Pods-PassportScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04702297C5945F297BF91FB3DBBC836B /* Debug */,
+				C58E71AB28B747713B14E78105678C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

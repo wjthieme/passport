@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PassportScanner/Pods-PassportScanner-frameworks.sh
+${BUILT_PRODUCTS_DIR}/NFCPassportReader/NFCPassportReader.framework
+${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework
+${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework.dSYM
